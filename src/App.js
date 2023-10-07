@@ -26,7 +26,7 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/about' element={<About />} />
-          <Route path='/course' element={<Common />} />
+          <Route path='/course' element={<Course />} />
         </Routes>
 
         {/* footer starts here */}

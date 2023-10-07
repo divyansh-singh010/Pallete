@@ -1,0 +1,23 @@
+{
+    "section1": {
+        "title": "Section 1 Title",
+        "subheadings": [
+            "Section 1 Subheading 1",
+            "Section 1 Subheading 2"
+        ]
+    },
+    "section2": {
+        "title": "Section 2 Title",
+        "subheadings": [
+            "Section 2 Subheading 1",
+            "Section 2 Subheading 2"
+        ]
+    },
+    "section3": {
+        "title": "Section 3 Title",
+        "subheadings": [
+            "Section 3 Subheading 1",
+            "Section 3 Subheading 2"
+        ]
+    }
+}

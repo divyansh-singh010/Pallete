@@ -1,0 +1,293 @@
+.about-us-box {
+    color: #252323;
+    /* position: relative; */
+    /* top: -10px;
+    left: 20%; */
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.25rem;
+    /* 66.667% */
+    letter-spacing: 1.3125rem;
+    text-transform: uppercase;
+    height: fit-content;
+}
+
+.about-us-img {
+    border-radius: 3px;
+    background-color: #000;
+    width: 31.5rem;
+    height: 31.5rem;
+    flex-shrink: 0;
+}
+
+.kl {
+    border: 0 !important;
+}
+
+.about-us-container1,
+.about-us-container2 {
+    display: flex;
+    margin: 5%;
+}
+
+.about-us-text {
+    margin: 10% 5% 5% 10%;
+    border: 2px solid #000;
+    /* Adds a black border around the text */
+    padding: 10px;
+
+}
+
+.about-us-para {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25rem;
+    flex: 1;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.125rem;
+    /* 170% */
+    letter-spacing: 0.04375rem;
+    text-transform: capitalize;
+}
+
+.about-us-container2 {
+    /* display: flex;
+    margin: auto 10%; */
+}
+
+.about-us-text2 {
+    position: relative;
+    display: flex;
+    margin: 10% 10%;
+    text-align: center;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.about-us-text2-para {
+    color: #000;
+    padding: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.04375rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-container3 {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.25rem;
+    /* 208.333% */
+    letter-spacing: 0.42rem;
+    text-transform: uppercase;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-us-img4 {
+    width: 50rem;
+    height: 29.3125rem;
+    flex-shrink: 0;
+    background: #b33333;
+    box-shadow: 13px 13px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 50%;
+    height: 20rem;
+}
+
+.about-us-container4 {
+    display: flex;
+    margin: 10%;
+}
+
+.about-us-textcontainer {
+    margin: 2% 5% 1% 5%;
+}
+
+.about-us-head {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.15625rem;
+    /* 166.25% */
+    letter-spacing: 0.35rem;
+    text-transform: capitalize;
+}
+
+.about-us-head2 {
+    margin: 1%;
+    display: flex;
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.15625rem;
+    /* 184.722% */
+    letter-spacing: 0.315rem;
+    text-transform: capitalize;
+    text-align: center;
+    justify-content: center;
+}
+
+.margin {
+    margin: 5%;
+}
+
+.about-us-box {
+    left: 10%;
+    /* Adjusted position for better responsiveness */
+}
+
+.about-us-img {
+    width: 100%;
+    /* Adjusted width to fill the container */
+    height: 20rem;
+    /* Set a fixed height for the image */
+}
+
+.about-us-container1,
+.about-us-container2 {
+    flex-direction: column;
+    /* Changed to vertical layout for smaller screens */
+}
+
+.about-us-text {
+    margin: 2% 0;
+    /* Adjusted margin for better spacing */
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.about-us-para {
+    font-size: 1rem;
+    /* Adjusted font size for better mobile readability */
+}
+
+.about-us-text-down,
+.about-us-img-down {
+    width: 50%;
+    /* Adjusted width to fill the container */
+    height: 20rem;
+    /* Set a fixed height */
+}
+
+.about-us-container2 {
+    margin: 5% 0;
+    /* Adjusted margin for better spacing */
+}
+
+.about-us-text2 {
+    font-size: 1rem;
+    /* Adjusted font size for better mobile readability */
+    line-height: 1.5rem;
+    /* Adjusted line height for better spacing */
+    text-align: center;
+    /* width: 100%; Adjusted width to fill the container */
+}
+
+.about-us-container3 {
+    font-size: 2rem;
+    /* Adjusted font size for better mobile readability */
+    letter-spacing: 0.2rem;
+    /* Adjusted letter spacing */
+}
+
+
+
+.about-us-textcontainer {
+    margin: 2% 2% 1% 2%;
+    /* Adjusted margins for better spacing */
+}
+
+.about-us-head {
+    font-size: 1.5rem;
+    /* Adjusted font size for better mobile readability */
+    line-height: 2.5rem;
+    /* Adjusted line height */
+}
+
+.about-us-head2 {
+    font-size: 1.25rem;
+    /* Adjusted font size for better mobile readability */
+    line-height: 2rem;
+    /* Adjusted line height */
+}
+
+.margin {
+    margin: 5% 0;
+    /* Adjusted margin for better spacing */
+}
+
+/* Media Queries for Responsive Design */
+
+@media (min-width: 768px) {
+
+    .about-us-container1,
+    .about-us-container2 {
+        flex-direction: row;
+        /* Reverted back to horizontal layout */
+    }
+    .about-us-para{
+        margin: 0;
+    }
+    .about-us-box {
+        left: 20%;
+        /* Restored original position */
+    }
+
+    .about-us-text,
+    .about-us-text2 {
+        position: relative;
+        width: fit-content;
+        margin: 2% 0 10px 10px;
+        /* Adjusted width for better spacing on larger screens */
+    }
+
+    .about-us-img{
+        width: 50%;
+        height: 450px;
+    }
+    .about-us-img-down,
+    .about-us-img4 {
+        width: 50%;
+        height: 300px;
+        /* Reset height to maintain aspect ratio */
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .about-us-img4 {
+        margin: auto;
+        width: 50%;
+        height: 200px;
+        /* Reset height to maintain aspect ratio */
+    }
+    .about-us-container4{
+        margin-left: 2%;
+    }
+
+  }
+  

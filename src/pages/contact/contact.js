@@ -1,5 +1,6 @@
 import React from "react";
 import ellipse from "./ellipse.png";
+import "./contact.css";
 
 const ContactForm = () => {
     const handleSubmit = (e) => {

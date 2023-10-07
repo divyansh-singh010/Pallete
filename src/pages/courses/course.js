@@ -19,7 +19,7 @@ const Course = ({ course }) => {
                 <h4 className='course-bg-text2'>Workshop Schedule</h4>
                 <h4 className='course-bg-text2'>Workshop Schedule</h4>
             </div>
-            <hr className='rule rule-1'></hr>
+            <hr className='rule-1'></hr>
             <div className='text-container2'>
                 <h3 className='course-bg-text1 text-subcontainer'>one day workshops</h3>
                 <h4 className='course-bg-text2 text-subcontainer'>Workshop Schedule</h4>

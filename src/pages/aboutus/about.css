@@ -40,8 +40,6 @@
 
 .about-us-text {
     margin: 10% 5% 5% 10%;
-    border: 2px solid #000;
-    /* Adds a black border around the text */
     padding: 10px;
 
 }
@@ -95,7 +93,7 @@
     font-size: 3rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 6.25rem;
+    line-height: 150%;
     /* 208.333% */
     letter-spacing: 0.42rem;
     text-transform: uppercase;
@@ -177,8 +175,6 @@
 
 .about-us-text {
     margin: 2% 0;
-    /* Adjusted margin for better spacing */
-    border: 2px solid #000;
     padding: 10px;
 }
 
@@ -255,7 +251,9 @@
         margin: 0;
     }
     .about-us-box {
+        text-align: center;
         left: 20%;
+        font-size: 600%;
         /* Restored original position */
     }
 

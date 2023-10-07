@@ -11,24 +11,22 @@ const Home = ({ home }) => {
     return(
         <div className="home">
         
-        <img className='home-bg' src={homebg} alt='profile' />
         <div className='home-bg-text'>
 				<p className='home-text'>palate<br/>
 					culinary<br/>
 					academy</p>
 			</div>
+        <img className='home-bg' src={homebg} alt='profile' />
 			<div className='home'>
 				<div className='home-images'>
 					<div class="img-item">
 						<img className='home-img mid-img' src={img1} alt='profile' />
-						{/* <div class="vertical-line"></div> */}
 					</div>
 					<div class="img-item">
 						<img className='home-img mid-img' src={img2} alt='profile' />
-						{/* <div class="vertical-line"></div> */}
 					</div>
 					<div class="img-item">
-						<img className='home-img last-img' src={img3} alt='profile' />
+						<img className='home-img mid-img' src={img3} alt='profile' />
 					</div>
 				</div>
 				<div className='container4'>

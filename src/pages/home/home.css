@@ -1,165 +1,486 @@
-/* Default styles for larger screens */
-body {
-    background: #FFF9F6;
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93.5rem;
+  height: 45.44rem;
 }
-
-.home-bg {
-    width: 100%;
-    height: 30%;
-    background-color: #646464;
-    position: relative;
-    flex-shrink: 0;
+.head-main-child {
+  position: absolute;
+  top: 0.76rem;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 92.94rem;
+  height: 4.49rem;
 }
-
-.home-text {
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-<<<<<<< HEAD
-    font-size: 400%;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%;
-    position: relative;
-    z-index: 2;
-    top: 180px;
-    left: 10%;
-=======
-    font-size: 3rem; /* Adjust font size as needed */
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5;
-    position: absolute;
-    top: 35%;
-    left: 5%;
->>>>>>> 747eb5002ccace0a2afd271f13b2a3f6ac8080ce
-    letter-spacing: 9px;
-    text-transform: uppercase;
-    width: 33%;
+.head-main-item {
+  position: absolute;
+  top: 1.17rem;
+  left: 1.19rem;
+  width: 5.8rem;
+  height: 3.61rem;
+  object-fit: cover;
 }
-.home-bg-text {
-    width: 100%;
-    height: 0;
+.courses,
+.home {
+  display: inline-block;
 }
-
-.home-img {
-    padding: 0px 40px;
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.04em;
+  line-height: 6.25rem;
+  text-transform: capitalize;
+  color: #ebc96e;
+  width: 4.19rem;
+  height: 5.83rem;
 }
-
-.home-images {
-    display: grid;
-    border-radius: 7px;
-    background: #F0F0F0;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0px;
-    margin: 10% auto;
-    width: 70%;
-    justify-content: center;
-    align-items: center;
+.courses {
+  left: 7.81rem;
+  width: 4.69rem;
 }
-
-.mid-img {
-    padding: 0px 50px;
-    margin: auto;
+.blog,
+.campus,
+.contact,
+.courses {
+  position: absolute;
+  top: 0.12rem;
+  letter-spacing: 0.04em;
+  line-height: 6.25rem;
+  text-transform: capitalize;
+  height: 5.83rem;
 }
-
-.img-item {
-    width: 100%;
-    display: flex;
+.campus {
+  left: 16.13rem;
+  display: inline-block;
+  width: 4.81rem;
 }
-
-.grid-item img {
-    max-width: 100%;
-    height: auto;
+.blog,
+.contact {
+  left: 30.81rem;
+  display: flex;
+  align-items: center;
+  width: 4.75rem;
 }
-
-.vertical-line {
-    width: 1px !important;
-    height: auto !important;
-    background: #000 !important;
-    filter: blur(1px) !important;
+.blog {
+  left: 24.56rem;
+  width: 2.63rem;
 }
-
-
-.image1 {
-    width: 100%;
-    height: auto;
-    margin-right: 0;
-    border-radius: 1rem;
-    background: #000;
+.head-main,
+.title {
+  position: absolute;
+  height: 5.95rem;
 }
-
-.image1 img {
-    width: 100%;
-    height: auto;
+.title {
+  top: 0;
+  left: 51.56rem;
+  width: 35.56rem;
 }
-
-.home-text-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
+.head-main {
+  top: -0.81rem;
+  left: 0;
+  width: 92.94rem;
 }
-
-.welcome-text {
-    margin: 0px;
-<<<<<<< HEAD
-    text-align: left;
-    width: 680px;
-=======
-    width: 90%;
->>>>>>> 747eb5002ccace0a2afd271f13b2a3f6ac8080ce
+.bottom-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93.13rem;
+  height: 28.19rem;
 }
-
-.home-welcome-text {
-    color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-    width: 100%;
-    letter-spacing: 0.5px;
-    text-transform: capitalize;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    margin-right: 0;
+.bottom-item {
+  position: absolute;
+  top: 3.01rem;
+  left: 2.94rem;
+  width: 9.94rem;
+  height: 6.18rem;
+  object-fit: cover;
 }
-
-.home-welcome-text2 {
-    margin-right: 0;
-    color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    margin-top: 10px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    width: 100%;
-    letter-spacing: 0.5px;
-    text-transform: capitalize;
+.new-delhi-delhi,
+.palateculinaryacademy2023 {
+  position: absolute;
+  letter-spacing: 0.04em;
+  line-height: 6.25rem;
+  text-transform: capitalize;
 }
-
-.container1,
-.container2,
-.container3,
-.container4,
-.container5,
-.container6 {
-    margin: 0;
+.palateculinaryacademy2023 {
+  top: 21.94rem;
+  left: calc(50% - 160px);
+  font-size: 1.31rem;
 }
-
-.container1 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-    margin-left: 0;
-    margin-right: 0;
+.new-delhi-delhi {
+  top: 10.13rem;
+  left: 2.94rem;
+  font-size: var(--font-size-xl);
+  display: flex;
+  align-items: center;
+  width: 10.06rem;
+  height: 2.75rem;
 }
-
-rakhee-vaswani-child {
+.email-palateculinarygmailc {
+  margin: 0;
+}
+.events,
+.faq,
+.phone-999-container,
+.privacy-policy {
+  position: absolute;
+  letter-spacing: 0.04em;
+  line-height: 2.41rem;
+}
+.phone-999-container {
+  top: 15.81rem;
+  left: 3.06rem;
+  font-size: var(--font-size-xl);
+}
+.events,
+.faq,
+.privacy-policy {
+  top: 8.13rem;
+  left: 76.19rem;
+}
+.events,
+.privacy-policy {
+  top: 10.69rem;
+}
+.privacy-policy {
+  top: 13.25rem;
+}
+.bottom {
+  position: absolute;
+  top: 276.19rem;
+  left: 0;
+  width: 93.13rem;
+  height: 28.19rem;
+  font-size: var(--font-size-5xl);
+}
+.video-1 {
+  position: absolute;
+  top: 39.19rem;
+  left: calc(50% + 519.5px);
+  font-size: var(--font-size-16xl);
+  letter-spacing: 0.14em;
+  line-height: 6.25rem;
+  text-transform: uppercase;
+}
+.collabs-icon {
+  position: absolute;
+  top: 52.69rem;
+  left: 13.75rem;
+  width: 66.13rem;
+  height: 17.55rem;
+}
+.palete-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 9px;
+  background-color: var(--color-black);
+  width: 25.88rem;
+  height: 29.31rem;
+}
+.image-1,
+.palate-culinary-academy,
+.welcome-to-palate {
+  position: absolute;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.welcome-to-palate {
+  top: 0.88rem;
+  left: 30.19rem;
+  letter-spacing: 0.02em;
+  line-height: 3.38rem;
+  font-family: var(--font-outfit);
+  width: 42.5rem;
+}
+.image-1,
+.palate-culinary-academy {
+  top: 8.38rem;
+  left: 29.94rem;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.04em;
+  line-height: 2.31rem;
+  width: 36.75rem;
+  height: 20.94rem;
+}
+.image-1 {
+  top: 23.75rem;
+  left: 14.06rem;
+  font-size: var(--font-size-16xl);
+  line-height: 6.25rem;
+  font-weight: 600;
+  color: var(--color-white);
+  width: 9.75rem;
+  height: 3.94rem;
+}
+.palete {
+  position: absolute;
+  top: 77.38rem;
+  left: 11.31rem;
+  width: 72.69rem;
+  height: 29.31rem;
+  font-size: 2.5rem;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 153.14px);
+  border-radius: var(--br-smi);
+  width: 19.14rem;
+  height: 21.69rem;
+}
+.level-2-certificate,
+.rs-420000 {
+  position: absolute;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.level-2-certificate {
+  top: 2rem;
+  left: calc(50% - 131.14px);
+  line-height: 2.25rem;
+  font-weight: 500;
+  width: 16.75rem;
+  height: 3.69rem;
+}
+.rs-420000 {
+  top: 8.81rem;
+  left: 2.94rem;
+  font-size: var(--font-size-11xl);
+  line-height: 3.19rem;
+  font-weight: 800;
+  width: 13.69rem;
+  height: 4.19rem;
+}
+.button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-29xl);
+  background-color: var(--color-black);
+  width: 9.44rem;
+  height: 3.87rem;
+}
+.get-it-now {
+  position: absolute;
+  top: 0.44rem;
+  left: 0.49rem;
+  letter-spacing: 0.04em;
+  line-height: 3.19rem;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.57rem;
+  height: 3.02rem;
+}
+.button {
+  position: absolute;
+  top: 16rem;
+  left: 4.81rem;
+  width: 9.44rem;
+  height: 3.87rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.vector-group {
+  position: absolute;
+  top: 17rem;
+  left: calc(50% - 405px);
+  width: 19.14rem;
+  height: 21.69rem;
+}
+.level-2-certificate1,
+.rs-4200001 {
+  position: absolute;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.level-2-certificate1 {
+  top: 1.94rem;
+  left: calc(50% - 131.14px);
+  line-height: 2.25rem;
+  font-weight: 500;
+  width: 16.75rem;
+  height: 3.69rem;
+}
+.rs-4200001 {
+  top: 8.75rem;
+  left: 2.44rem;
+  font-size: var(--font-size-11xl);
+  line-height: 3.19rem;
+  font-weight: 800;
+  width: 14.61rem;
+  height: 4.18rem;
+}
+.button1 {
+  position: absolute;
+  top: 16.06rem;
+  left: 5rem;
+  width: 9.44rem;
+  height: 3.87rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.vector-container {
+  position: absolute;
+  top: 17rem;
+  left: calc(50% + 101px);
+  width: 19.14rem;
+  height: 21.69rem;
+}
+.courses-we-offer {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 229px);
+  font-size: 3rem;
+  letter-spacing: 0.04em;
+  line-height: 6.25rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: left;
+  display: inline-block;
+  width: 31.13rem;
+}
+.courses-child {
+  position: absolute;
+  top: 6.22rem;
+  left: 2.53rem;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 48.81rem;
+  height: 0.19rem;
+}
+.courses1,
+.we-offer-not {
+  position: absolute;
+  width: 53.88rem;
+}
+.we-offer-not {
+  top: 6.38rem;
+  left: 0;
+  font-size: 1.13rem;
+  letter-spacing: 0.04em;
+  line-height: 2.22rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+}
+.courses1 {
+  top: 161.56rem;
+  left: calc(50% - 431.5px);
+  height: 38.69rem;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+}
+.take-away-benefits {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 285.5px);
+  letter-spacing: 0.14em;
+  line-height: 4.66rem;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 37rem;
+}
+.benefits-child,
+.benefits-item {
+  position: absolute;
+  top: 14.25rem;
+  left: 0;
+  border: 3px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 15rem;
+  height: 16.06rem;
+}
+.benefits-item {
+  top: 35.25rem;
+}
+.benefits-inner {
+  top: 14.25rem;
+  left: calc(50% - 120.5px);
+}
+.benefits-child1,
+.benefits-child2,
+.benefits-inner,
+.rectangle-div {
+  position: absolute;
+  border: 3px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 15rem;
+  height: 16.06rem;
+}
+.rectangle-div {
+  top: 35.25rem;
+  left: calc(50% - 120.5px);
+}
+.benefits-child1,
+.benefits-child2 {
+  top: 14.25rem;
+  left: 40.44rem;
+}
+.benefits-child2 {
+  top: 35.25rem;
+}
+.benefits {
+  position: absolute;
+  top: 211.13rem;
+  left: calc(50% - 443.5px);
+  width: 55.44rem;
+  height: 51.31rem;
+  text-align: center;
+  font-size: 4rem;
+  color: var(--color-black);
+}
+.palate {
+  margin-block-start: 0;
+  margin-block-end: 4px;
+}
+.palate-culinary-academy-container {
+  position: absolute;
+  top: 14.56rem;
+  left: 1.5rem;
+  font-size: 6.25rem;
+  letter-spacing: 0.09em;
+  line-height: 6.31rem;
+  text-transform: uppercase;
+}
+.instance-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper {
+  position: absolute;
+  top: 53.94rem;
+  left: 19.69rem;
+  width: 11.37rem;
+  height: 13.88rem;
+}
+.rakhee-vaswani-child {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,270 +555,14 @@ rakhee-vaswani-child {
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-.container4 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.courses {
-    margin: 2% auto;
-    color: #000;
-    font-size: 2.25rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 2.5rem;
-    letter-spacing: 0.07875rem;
-    text-transform: capitalize;
-}
-
-.rule {
-    width: 80%;
-    margin: 10px auto;
-}
-
-.courses-text {
-    margin: 10px auto;
-    color: #000;
-    text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 2.21875rem;
-    letter-spacing: 0.03938rem;
-    text-transform: capitalize;
-}
-
-.container5 {
-    margin: 0;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.container6 {
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-    text-align: center;
-}
-
-.sub-6 {
-    margin: 0;
-    height: auto;
-    width: 100%;
-}
-
-<<<<<<< HEAD
-/* Add these styles for mobile view */
-@media screen and (min-width: 450px) and (max-width: 768px) {
-    .home-text {
-        font-size: 300%!important;
-        line-height: 150%!important;
-        /* left: 10px; */
-        width: 60%;
-        top: 40%!important;
-    }
-}
-@media (max-width: 768px) {
-    .home-text {
-        font-size: 200%;
-        line-height: 100%;
-        /* left: 10px; */
-        width: 60%;
-        top: 40px;
-=======
-/* Media Query for screens up to 768px */
-@media (max-width: 768px) {
-    .home-text {
-        font-size: 2rem; /* Adjust font size for smaller screens */
-        line-height: 1.2; /* Adjust line height as needed */
-        width: 80%;
-        top: 20%;
-        left: 10%;
->>>>>>> 747eb5002ccace0a2afd271f13b2a3f6ac8080ce
-    }
-
-    .home-text-img {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 200px;
-    }
-
-    .home-images {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-        margin: 20px auto;
-    }
-
-    .home-images .img-item {
-        width: 100%;
-        margin-bottom: 0px;
-    }
-
-    .home-img {
-        padding: 0;
-        width: 90%;
-        margin: 10% auto;
-    }
-
-    .vertical-line {
-        display: none;
-    }
-
-    .container1,
-    .container2,
-    .container3,
-    .container4,
-    .container5,
-    .container6 {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .container4 {
-        flex-direction: column;
-        margin: 10% auto;
-        align-items: center;
-        text-align: center;
-        margin-top: 10%;
-    }
-
-    .image1 {
-        width: 80%;
-        margin: 0;
-        height: 300px;
-    }
-
-    .welcome-text {
-        width: 90%;
-        text-align: center;
-    }
-
-    .home-welcome-text {
-        font-size: 24px;
-        line-height: 32px;
-        letter-spacing: 0.5px;
-        margin: 10% auto;
-    }
-
-    .home-welcome-text2 {
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        margin: 5% auto;
-    }
-
-    .rakhee {
-        font-size: 2.5rem;
-        line-height: 3.5rem;
-        letter-spacing: 0.5rem;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-
-    .rakhee-text {
-        font-size: 1rem;
-        line-height: 1.5rem;
-        letter-spacing: 0.02rem;
-        text-align: center;
-    }
-
-    .rakhee-line {
-        width: 60%;
-        left: 20%;
-    }
-
-    .img-container {
-        top: -140px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    .rakhee-text-container {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .rakhee-text2 {
-        font-size: 0.9rem;
-        margin: 10px 0;
-        text-align: center;
-    }
-
-    .container4 {
-        margin-top: 10%;
-    }
-
-    .sub {
-        width: 90%;
-        margin: 5%;
-        height: auto;
-    }
-
-    .sub-text {
-        margin: 10px auto;
-        font-size: 90%;
-        line-height: 1.5rem;
-        letter-spacing: 0.02rem;
-        width: fit-content;
-    }
-
-    .sub-text2 {
-        padding: 10px;
-        font-size: 1.2rem;
-        line-height: 2rem;
-        letter-spacing: 0.05rem;
-    }
-
-    .sub-btn {
-        font-size: 1rem;
-        line-height: 2rem;
-        padding: 10px 20px;
-        width: 80%;
-        margin: 4% auto;
-    }
-
-    .courses {
-        font-size: 2rem;
-        line-height: 2rem;
-        letter-spacing: 0.07rem;
-    }
-
-    .rule {
-        width: 90%;
-    }
-
-    .courses-text {
-        font-size: 1rem;
-        line-height: 1.8rem;
-        letter-spacing: 0.03rem;
-        margin: 10px 5%;
-        text-align: center;
-    }
-
-    .container5 {
-        margin-top: 30px;
-    }
-
-    .container6 {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
-        text-align: center;
-        margin: 1% auto;
-    }
-
-    .sub-6 {
-        margin: auto;
-        height: auto;
-        width: 100%;
-    }
+.vector-parent {
+  position: relative;
+  background-color: #fff9f6;
+  width: 100%;
+  height: 304.38rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-outfit);
 }

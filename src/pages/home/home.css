@@ -1,4 +1,5 @@
-body{
+/* Default styles for larger screens */
+body {
     background: #FFF9F6;
 }
 
@@ -19,7 +20,6 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    /* 101% */
     position: absolute;
     top: 35%;
     left: 5%;
@@ -48,9 +48,6 @@ body{
     width: 90%;
     justify-content: center;
     align-items: center;
-    /* position: relative;
-    top: 116px;
-    left: 200px; */
 }
 
 .mid-img {
@@ -60,14 +57,11 @@ body{
 .img-item {
     width: 100%;
     display: flex;
-    /* margin: 40px; */
 }
 
 .grid-item img {
     max-width: 100%;
-    /* Ensure images don't exceed the width of their parent element */
     height: auto;
-    /* Maintain aspect ratio */
 }
 
 .vertical-line {
@@ -93,7 +87,6 @@ body{
 .image1 img {
     width: 100%;
     height: 100%;
-
 }
 
 .home-text-img {
@@ -105,9 +98,6 @@ body{
 
 .welcome-text {
     margin: 0px;
-    /* position: relative;
-    top: 10px;
-    left: 46%; */
     width: 680px;
 }
 
@@ -119,7 +109,6 @@ body{
     font-weight: 500;
     line-height: 54px;
     width: 80%;
-    /* 135% */
     letter-spacing: 0.8px;
     text-transform: capitalize;
     margin-top: 5px;
@@ -137,7 +126,6 @@ body{
     font-weight: 500;
     line-height: 37px;
     width: 80%;
-    /* 185% */
     letter-spacing: 0.7px;
     text-transform: capitalize;
 }
@@ -169,21 +157,18 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 6.25rem;
-    /* 117.647% */
     letter-spacing: 0.74375rem;
     text-transform: uppercase;
 }
 
 .rakhee-text {
     color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     margin-top: 1%;
     margin-left: 4%;
     line-height: 2.3125rem;
-    /* 185% */
     letter-spacing: 0.04375rem;
     text-transform: capitalize;
 }
@@ -216,13 +201,11 @@ body{
 
 .rakhee-text2 {
     color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     margin-right: 5%;
     line-height: 2.5rem;
-    /* 200% */
     letter-spacing: 0.04375rem;
     text-transform: capitalize;
 }
@@ -241,12 +224,10 @@ body{
 .courses {
     margin-bottom: 5px;
     color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     font-style: normal;
     font-weight: 500;
     line-height: 6.25rem;
-    /* 208.333% */
     letter-spacing: 0.105rem;
     text-transform: capitalize;
 }
@@ -262,12 +243,10 @@ body{
     margin: 10px 20%;
     color: #000;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;
     line-height: 2.21875rem;
-    /* 197.222% */
     letter-spacing: 0.03938rem;
     text-transform: capitalize;
 }
@@ -296,12 +275,10 @@ body{
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.4375rem;
     font-style: normal;
     font-weight: 500;
     line-height: 2.25rem;
-    /* 156.522% */
     letter-spacing: 0.05031rem;
     text-transform: capitalize;
 }
@@ -309,7 +286,6 @@ body{
 .sub {
     width: 19rem;
     background-color: rgba(0, 0, 0, 0.15);
-    /* display: flex; */
     height: 21.6875rem;
     flex-shrink: 0;
     border: 3px solid rgba(59, 0, 2, 1);
@@ -328,12 +304,10 @@ body{
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 800;
     line-height: 3.1875rem;
-    /* 170% */
     letter-spacing: 0.06563rem;
     text-transform: capitalize;
 }
@@ -345,12 +319,10 @@ body{
 
 .sub-btn {
     color: #FFF;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    /* 255% */
     letter-spacing: 0.04375rem;
     text-transform: capitalize;
     display: flex;
@@ -374,13 +346,11 @@ body{
     width: fit-content;
     color: #000;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: 4.65625rem;
     margin: 2% auto;
-    /* 116.406% */
     letter-spacing: 0.56rem;
     text-transform: uppercase;
 }
@@ -397,9 +367,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    /* Create 3 equal-width columns */
     gap: 5rem;
-    /* Add some gap between the items */
 }
 
 .sub-6 {
@@ -411,21 +379,21 @@ body{
     height: auto;
 }
 
-/* Add these styles for mobile view */
+/* Media Query for screens between 450px and 768px */
 @media screen and (min-width: 450px) and (max-width: 768px) {
     .home-text {
-        font-size: 300%!important;
-        line-height: 150%!important;
-        /* left: 10px; */
+        font-size: 300% !important;
+        line-height: 150% !important;
         width: 60%;
-        top: 30%!important;
+        top: 30% !important;
     }
 }
+
+/* Media Query for screens up to 768px */
 @media (max-width: 768px) {
     .home-text {
         font-size: 200%;
         line-height: 100%;
-        /* left: 10px; */
         width: 60%;
         top: 20%;
     }
@@ -467,9 +435,15 @@ body{
         margin-left: 0;
         margin-right: 0;
     }
-    .container4{
+
+    .container4 {
+        flex-direction: column;
+        margin: 10% auto;
+        align-items: center;
+        text-align: center;
         margin-top: 10%;
     }
+
     .image1 {
         width: auto;
         margin: 0;
@@ -492,7 +466,7 @@ body{
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.56px;
-        margin:5% auto;
+        margin: 5% auto;
     }
 
     .rakhee {
@@ -537,10 +511,7 @@ body{
     }
 
     .container4 {
-        flex-direction: column;
-        margin: 10% auto;
-        align-items: center;
-        text-align: center;
+        margin-top: 10%;
     }
 
     .sub {

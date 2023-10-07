@@ -145,76 +145,81 @@ body {
     margin-right: 0;
 }
 
-.container2 {
-    margin-top: 5%;
-    border-radius: 0.25rem;
-    border: 3px solid #000;
-    background: #FFF9F9;
-    height: auto;
-    margin-right: 0;
-    margin-left: 0;
+rakhee-vaswani-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #fff9f9;
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 69.19rem;
+  height: 36.81rem;
 }
-
-.rakhee {
-    margin-top: 5%;
-    margin-left: 0;
-    margin-bottom: 3%;
-    color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3.125rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 4.3125rem;
-    letter-spacing: 0.4875rem;
-    text-transform: uppercase;
+.rakhee-vaswani-item {
+  position: absolute;
+  top: 0.13rem;
+  left: 40.95rem;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.35);
+  width: 28.24rem;
+  height: 36.69rem;
 }
-
-.rakhee-text {
-    color: #000;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    margin-top: 1%;
-    margin-left: 0;
-    line-height: 1.8125rem;
-    letter-spacing: 0.02875rem;
-    text-transform: capitalize;
+.head-chef-and,
+.rakhee-vaswani1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
 }
-
-.rakhee-line {
-    background: #000;
-    width: 33.22025rem;
-    height: 0.125rem;
-    position: relative;
-    left: 0;
+.head-chef-and {
+  top: 8.13rem;
+  left: 2.56rem;
+  letter-spacing: 0.04em;
+  line-height: 2.31rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  width: 15.59rem;
 }
-
-.img-container {
-    z-index: 0;
-    border-radius: 0.1875rem;
-    background: rgba(0, 0, 0, 0.35);
-    position: relative;
-    top: 0;
-    height: auto;
-    width: 90%;
-    left: 5%;
+.rakhee-vaswani1 {
+  top: 1.88rem;
+  left: 0;
+  font-size: 5.31rem;
+  letter-spacing: 0.14em;
+  line-height: 6.25rem;
+  text-transform: uppercase;
+  font-family: var(--font-outfit);
+  width: 60.56rem;
 }
-
-.rakhee-text-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
+.rakhee-vaswani-inner {
+  position: absolute;
+  top: 12.06rem;
+  left: 2.49rem;
+  border-top: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 33.35rem;
+  height: 0.13rem;
 }
-
-.rakhee-text2 {
-    color: #000;
-    font-size: 1rem;
-    margin: 10px 0;
-    text-align: center;
+.sed-pellentesque-venenatis {
+  position: absolute;
+  top: 14.19rem;
+  left: 2.11rem;
+  letter-spacing: 0.04em;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 38.14rem;
 }
-
+.rakhee-vaswani {
+  position: absolute;
+  top: 115rem;
+  left: 11.63rem;
+  width: 69.19rem;
+  height: 36.81rem;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
 .container4 {
     display: flex;
     flex-direction: column;

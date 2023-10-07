@@ -8,7 +8,7 @@ import img3 from "./img3.png";
 import logo from "./logo.png";
 
 const Home = ({ home }) => {
-  return (
+  return (<div>
     <div className="home">
       <img className="home-bg" src={homebg} alt="profile" />
       <div className="home-bg-text">
@@ -98,7 +98,6 @@ const Home = ({ home }) => {
           <div className="sub-6"></div>
         </div>
       </div>
-    </div>
   );
 };
 

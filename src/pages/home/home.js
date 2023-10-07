@@ -51,21 +51,15 @@ const Home = ({ home }) => {
             </p>
           </div>
         </div>
-        <div className="container2">
-          <h3 className="rakhee"> Rakhee Vaswani</h3>
-          <h6 className="rakhee-text">Head Chef and Founder</h6>
-          <hr className="rakhee-line" />
-          <div className="rakhee-text-container">
-            <p className="rakhee-text2">
-              Sed pellentesque venenatis tincidunt. Maecenas at mattis quam, ut
-              bibendum odio. Nunc vitae tempor velit, in pharetra ante.
-              Pellentesque habitant morbi tristique senectus et netus et malesuada
-              fames ac turpis egestas. Pellentesque molestie tortor nec erat
-              vestibulum condimentum. Nam dui ante, tempus a sollicitudin id,
-              vestibulum eget lectus. Maecenas malesuada quam sit amet mauris
-              dapibus
-            </p>
-          </div>
+       <div className="rakhee-vaswani">
+        <div className="rakhee-vaswani-child" />
+        <div className="rakhee-vaswani-item" />
+        <div className="head-chef-and">head Chef and Founder</div>
+        <b className="rakhee-vaswani1"> Rakhee vaswani</b>
+        <div className="rakhee-vaswani-inner" />
+        <div className="sed-pellentesque-venenatis">{`Sed pellentesque venenatis tincidunt. Maecenas at mattis quam, ut bibendum odio. Nunc vitae tempor velit, in pharetra ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque molestie tortor nec erat vestibulum condimentum. Nam dui ante, tempus a sollicitudin id, vestibulum eget lectus. Maecenas malesuada quam sit amet mauris dapibus `}</div>
+      </div>
+    </div>
           <div className="img-container">
             <img src={logo} alt="rakhee" className="rakhee-img" />
           </div>

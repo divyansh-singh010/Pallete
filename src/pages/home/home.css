@@ -16,8 +16,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 300%;
-    font-style: normal;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 150%;
     position: absolute;
@@ -28,35 +27,21 @@ body {
     width: 33%;
 }
 
-.home-bg-text {
-    width: 100%;
-    height: 0;
-}
-
 .home-img {
-    padding: 0px 40px;
+    padding: 0 40px;
 }
 
 .home-images {
     display: grid;
     border-radius: 7px;
     background: #F0F0F0;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.25);
     grid-template-columns: repeat(3, 1fr);
-    gap: 0px;
+    gap: 0;
     margin: 10% auto;
     width: 90%;
     justify-content: center;
     align-items: center;
-}
-
-.mid-img {
-    padding: 0px 50px;
-}
-
-.img-item {
-    width: 100%;
-    display: flex;
 }
 
 .grid-item img {
@@ -71,14 +56,9 @@ body {
     filter: blur(1px) !important;
 }
 
-.last-img {
-    padding-right: 0px;
-}
-
 .image1 {
     width: 100%;
     height: auto;
-    margin-right: 0;
     border-radius: 1rem;
     background: #000;
 }
@@ -96,45 +76,34 @@ body {
 }
 
 .welcome-text {
-    margin: 0px;
+    margin: 0;
     width: 90%;
 }
 
-.home-welcome-text {
+.home-welcome-text, .home-welcome-text2 {
     color: #000;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-welcome-text {
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 32px;
-    width: 100%;
     letter-spacing: 0.5px;
     text-transform: capitalize;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    margin-right: 0;
+    margin: 5px 0 15px;
 }
 
 .home-welcome-text2 {
-    margin-right: 0;
-    color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    margin-top: 10px;
-    font-style: normal;
     font-weight: 500;
     line-height: 30px;
-    width: 100%;
     letter-spacing: 0.5px;
     text-transform: capitalize;
+    margin: 10px 0;
 }
 
-.container1,
-.container2,
-.container3,
-.container4,
-.container5,
-.container6 {
+.container1, .container2, .container3, .container4, .container5, .container6 {
     margin: 0;
 }
 
@@ -142,8 +111,6 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .container2 {
@@ -152,18 +119,12 @@ body {
     border: 3px solid #000;
     background: #FFF9F9;
     height: auto;
-    margin-right: 0;
-    margin-left: 0;
 }
 
 .rakhee {
     margin-top: 5%;
-    margin-left: 0;
-    margin-bottom: 3%;
     color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3.125rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 4.3125rem;
     letter-spacing: 0.4875rem;
@@ -173,10 +134,7 @@ body {
 .rakhee-text {
     color: #000;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
-    margin-top: 1%;
-    margin-left: 0;
     line-height: 1.8125rem;
     letter-spacing: 0.02875rem;
     text-transform: capitalize;
@@ -186,8 +144,6 @@ body {
     background: #000;
     width: 33.22025rem;
     height: 0.125rem;
-    position: relative;
-    left: 0;
 }
 
 .img-container {
@@ -196,7 +152,6 @@ body {
     background: rgba(0, 0, 0, 0.35);
     position: relative;
     top: 0;
-    height: auto;
     width: 90%;
     left: 5%;
 }
@@ -205,8 +160,6 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .rakhee-text2 {
@@ -220,15 +173,12 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .courses {
     margin: 2% auto;
     color: #000;
     font-size: 2.25rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 2.5rem;
     letter-spacing: 0.07875rem;
@@ -245,7 +195,6 @@ body {
     color: #000;
     text-align: center;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 2.21875rem;
     letter-spacing: 0.03938rem;
@@ -276,7 +225,7 @@ body {
 /* Media Query for screens up to 768px */
 @media (max-width: 768px) {
     .home-text {
-        font-size: 200%;
+        font-size: 2rem;
         line-height: 100%;
         width: 80%;
         top: 20%;
@@ -284,9 +233,6 @@ body {
     }
 
     .home-text-img {
-        display: flex;
-        justify-content: center;
-        width: 100%;
         height: 200px;
     }
 
@@ -298,7 +244,7 @@ body {
 
     .home-images .img-item {
         width: 100%;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .home-img {
@@ -311,12 +257,7 @@ body {
         display: none;
     }
 
-    .container1,
-    .container2,
-    .container3,
-    .container4,
-    .container5,
-    .container6 {
+    .container1, .container2, .container3, .container4, .container5, .container6 {
         margin-left: 0;
         margin-right: 0;
     }

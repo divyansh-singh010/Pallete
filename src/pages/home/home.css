@@ -129,6 +129,7 @@ body {
     margin-top: 5px;
     margin-bottom: 15px;
     margin-right: 10px;
+    text-align: left;
 }
 
 .home-welcome-text2 {
@@ -144,6 +145,7 @@ body {
     /* 185% */
     letter-spacing: 0.7px;
     text-transform: capitalize;
+    text-align: left;
 }
 
 .container1 {

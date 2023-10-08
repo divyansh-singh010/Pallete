@@ -6,9 +6,13 @@ import { Link } from "react-router-dom";
 const Course = ({ course }) => {
     return (
         <>
-            <video autoPlay muted loop className="home-bg">
+            <div className="video-container">
+              <video autoPlay muted loop className="home-bg">
                 <source src={video} type="video/mp4" />
-            </video>
+              </video>
+              <div className="overlay"></div>
+            </div>
+
             <div className='course-bg-text-container'>
                 <h3 className='course-bg-text'>Courses</h3>
             </div>

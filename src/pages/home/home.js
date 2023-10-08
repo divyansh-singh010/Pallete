@@ -12,7 +12,7 @@ import video from "./video.mp4";
 
 const Home = () => {
   return (<>
-    <div className="home">
+    <div className="top_home">
       <div className="home-bg-text">
         <p className="home-text">
           palate

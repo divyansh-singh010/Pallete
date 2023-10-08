@@ -21,12 +21,12 @@ const Home = () => {
           <br />
           academy
         </p>
-       <video autoPlay muted loop className="home-bg">
-      <source src={video} type="video/mp4" />
-
-      </video>
       </div>
-     
+    <div id="vid">
+      <video autoPlay muted loop className="home-bg">
+      <source src={video} type="video/mp4" />
+      </video>
+    </div>
 
       <div className="home">
         <div className="home-images">

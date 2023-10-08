@@ -91,6 +91,14 @@
     flex-shrink: 0;
     margin: auto;
 }
+.new-links {
+    color: #000;
+    text-decoration: none;
+}
+.new-links:hover {
+    color: #000;
+    text-decoration: none;
+}
 
 /* Add these styles to adjust for mobile view */
 

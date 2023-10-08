@@ -39,9 +39,11 @@ const App = () => {
             </h4>
           </div>
           <div className='footer-links'>
-            <h6 className='footer-text4'>FAQ</h6>
-            <h6 className='footer-text4'>Events</h6>
-             <h6 className='footer-text4'>Privacy Policy</h6>
+            <table className='tables">
+            <tr><h6 className='footer-text4'>FAQ</h6></tr>
+            <tr><h6 className='footer-text4'>Events</h6></tr>
+             <tr><h6 className='footer-text4'>Privacy Policy</h6></tr>
+            </table>
            </div>
            <h6 className='footer-text3'>
              © 2023 Palate Culinary Academy. All Rights Reserved.

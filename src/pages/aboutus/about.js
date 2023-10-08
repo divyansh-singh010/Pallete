@@ -1,5 +1,10 @@
 import React from "react";
 import './about.css';
+import img1 from './3.png';
+import img2 from './4.png';
+import img3 from './kitchen.jpg';
+import img4 from './dining.jpg';
+import img5 from './3new.jpg';
 
 const About = () => {
     return (<div>
@@ -8,6 +13,7 @@ const About = () => {
             </div>
         <div className='about-us-container1'>
             <div className='about-us-img'>
+                <img src={img1} className="about-us-img" alt="norefer"/>
             </div>
             <div className='about-us-text'>
                 <p className='about-us-para'>Palate Culinary Academy is an International culinary and pastry arts education, driven by the vision of Celebrity chef Rakhee Vaswani, Our outstanding courses are tailored for your goals, offering hands-on training for Bachelor students, professionals, career-changers and entrepreneurs. Led by experienced chefs and industry experts, you’ll take your skills to a world-class standard and build a strong foundation for success in the global food and beverage industry. </p>
@@ -18,6 +24,7 @@ const About = () => {
                 <p className='about-us-para'>Palate Culinary Academy is an International culinary and pastry arts education, driven by the vision of Celebrity chef Rakhee Vaswani, Our outstanding courses are tailored for your goals, offering hands-on training for Bachelor students, professionals, career-changers and entrepreneurs. Led by experienced chefs and industry experts, you’ll take your skills to a world-class standard and build a strong foundation for success in the global food and beverage industry. </p>
             </div>
             <div className='about-us-img'>
+            <img src={img2} className="about-us-img" alt="norefer"/>
             </div>
         </div>
         <div className='about-us-text2'>
@@ -36,11 +43,13 @@ const About = () => {
                 </div>
             </div>
             <div className='about-us-img4'>
-
+            <img src={img3} className="about-us-img4" alt="norefer"/>
             </div>
         </div>
         <div className='about-us-container4'>
-            <div className='about-us-img4'></div>
+            <div className='about-us-img4'>
+            <img src={img4} className="about-us-img4" alt="norefer"/>
+            </div>
             <div className='about-us-textcontainer'>
                 <h3 className='about-us-head'>State-of-the-Art Kitchen Facilities</h3>
                 <div className='about-us-text4'> malesuada. In sapien mauris, gravida vitae varius molestie, varius vel nisl. Curabitur efficitur risus ut mi gravida, ut tincidunt metus dapibus. Curabitur dapibus sapien turpis, ac eleifend
@@ -53,7 +62,9 @@ const About = () => {
                 <div className='about-us-text4'> malesuada. In sapien mauris, gravida vitae varius molestie, varius vel nisl. Curabitur efficitur risus ut mi gravida, ut tincidunt metus dapibus. Curabitur dapibus sapien turpis, ac eleifend
                 </div>
             </div>
-            <div className='about-us-img4'></div>
+            <div className='about-us-img4'>
+            <img src={img5} className="about-us-img4" alt="norefer"/>
+            </div>
         </div>
         <div className='about-us-container3'>
             Testimonials

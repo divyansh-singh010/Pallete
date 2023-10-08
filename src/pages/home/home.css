@@ -5,7 +5,6 @@ body {
 .home-bg {
   width: 100vh;
   height: 550px; /* Use viewport height to cover the entire screen vertically */
-  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
   filter: grayscale(100%); /* Grayscale the video */
   opacity: 0.7; /* Lower the transparency (adjust as needed) */
 }

@@ -44,7 +44,6 @@ const App = () => {
              <h6 className='footer-text4'>Privacy Policy</h6>
            </div>
            <h6 className='footer-text3'>
-             © 2021 Palate Culinary Academy. All Rights Reserved.
              © 2023 Palate Culinary Academy. All Rights Reserved.
            </h6>
          </div>

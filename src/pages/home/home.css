@@ -21,7 +21,7 @@ body {
 }
 
 .top_home {
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 

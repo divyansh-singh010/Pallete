@@ -33,8 +33,7 @@ const App = () => {
               Phone: +91 98202 67890<br />
               Email: xyz1223444531@gmail.com
             </h4>
-          </div>
-          <div className='footer-links'>
+            <div className='footer-links'>
             <table className='tables'>
               <tbody>
                 <tr>
@@ -48,6 +47,7 @@ const App = () => {
                 </tr>
               </tbody>
             </table>
+          </div>
           </div>
           <h6 className='footer-text3'>
             © 2023 Palate Culinary Academy. All Rights Reserved.

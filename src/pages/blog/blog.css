@@ -103,6 +103,9 @@
 }
 
 @media (min-width: 767px) {
+    .blog-head{
+        font-size: 600%;
+    }
     .text-container-new4 {
         grid-template-columns: repeat(3, 1fr);
         margin: 10%;

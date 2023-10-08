@@ -1,10 +1,10 @@
 /* contact us */
 .contact-container1 {
-    margin: auto;
+    margin: auto 5%;
     position: relative;
     align-items: center;
     display: flex;
-    width: 100%;
+    width: auto;
     /* Adjusted width */
     max-width: 800px;
     /* Added maximum width */
@@ -18,8 +18,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3% auto;
-    width: 94%;
+    margin: 1% auto;
+    width: 98%;
     max-width: 100%;
     /* Adjusted maximum width */
     height: auto;
@@ -51,6 +51,10 @@
     .contact-subcontainer2 {
         grid-template-columns: repeat(2, 1fr);
         /* Reset back to two columns for larger screens */
+    }
+    .contact-container1{
+        margin: auto;
+        width: 60%;
     }
 }
 

@@ -8,6 +8,7 @@ import img3 from "./img3.png";
 import logo from "./logo.png";
 import image1 from "./1.png";
 import rakhee from "./2.png";
+import video from "./video.mp4";
 
 const Home = () => {
   return (<>
@@ -21,8 +22,9 @@ const Home = () => {
           academy
         </p>
       </div>
-      <div className="home-bg">
-      </div>
+      <video autoPlay muted loop className="home-bg">
+        <source src={video} type="video" />
+      </video>
       <div className="home">
         <div className="home-images">
           <div className="img-item">

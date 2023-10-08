@@ -8,6 +8,7 @@ body {
   object-fit: cover; /* Maintain aspect ratio and cover the entire container */
   filter: grayscale(100%); /* Grayscale the video */
   opacity: 0.7; /* Lower the transparency (adjust as needed) */
+  z-index: -1;
 }
 
 

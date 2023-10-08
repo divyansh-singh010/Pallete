@@ -162,6 +162,7 @@
   margin-top: 20px; 
   margin-bottom: 0!important;/* Added margin for spacing */
   font-size: 0.875rem; /* Adjusted font size for better mobile readability */
+  font-weight:400;
 }
 
 .footer-links {

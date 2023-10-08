@@ -10,14 +10,20 @@ const Navbar = () => {
     setIsDropdownOpen(prev => !prev);
   };
 
+  const closeDropdown = () => {
+    setIsDropdownOpen(false);
+  };
+
   return (
     <div className='navbar'>
       <Link to='/'><img className='nav-logo' src={logo} alt='logo' /></Link>
       <div className="nav-links">
-        <span className='toggle-button' onClick={toggleDropdown}>
-          &#9776;
-        </span>
-        {isDropdownOpen && (
+        {window.innerWidth <= 768 && (
+          <span className='toggle-button' onClick={toggleDropdown}>
+            &#9776;
+          </span>
+        )}
+        {window.innerWidth > 768 && (
           <nav>
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
               <li className='nav-item acad-nav-item'>

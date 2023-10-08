@@ -12,7 +12,7 @@ import video from "./video.mp4";
 
 const Home = () => {
   return (<>
-    <div className="top_home">
+    <div className="home">
       <div className="home-bg-text">
         <p className="home-text">
           palate
@@ -22,11 +22,9 @@ const Home = () => {
           academy
         </p>
       </div>
-    <div id="vid">
       <video autoPlay muted loop className="home-bg">
       <source src={video} type="video/mp4" />
       </video>
-    </div>
 
       <div className="home">
         <div className="home-images">

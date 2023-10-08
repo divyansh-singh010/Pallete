@@ -23,8 +23,10 @@ const Home = () => {
         </p>
       </div>
       <video autoPlay muted loop className="home-bg">
-        <source src={video} type="video" />
+      <source src={video} type="video/mp4" />
+
       </video>
+
       <div className="home">
         <div className="home-images">
           <div className="img-item">

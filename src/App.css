@@ -149,12 +149,13 @@
 
 .footer-text,
 .footer-text2 {
-  font-size: 1rem; /* Adjusted font size for better mobile readability */
+  font-size: 1rem;
+  font-weight:400;/* Adjusted font size for better mobile readability */
 }
 
 .footer-text2 {
   margin-top: 5px;
-  font-weight:400;
+  
 }
 
 .footer-text3 {

@@ -167,6 +167,7 @@ label {
 .icon-container {
     display: flex;
     justify-content: center;
+    filter:grayscale(100%);
 }
 
 .svgs {

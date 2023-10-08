@@ -18,26 +18,28 @@ const Navbar = () => {
     <div className='navbar'>
       <Link to='/'><img className='nav-logo' src={logo} alt='logo' /></Link>
       <div className="nav-links">
-        <span className='toggle-button' onClick={toggleDropdown}>
-          &#9776;
-        </span>
-        {isDropdownOpen && (
-          <nav onBlur={closeDropdown}>
+        {window.innerWidth <= 768 && (
+          <span className='toggle-button' onClick={toggleDropdown}>
+            &#9776;
+          </span>
+        )}
+        {window.innerWidth > 768 && (
+          <nav>
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
               <li className='nav-item acad-nav-item'>
-                <Link to='/' onClick={closeDropdown}>Home</Link>
+                <Link to='/'>Home</Link>
               </li>
               <li className='nav-item acad-nav-item'>
-                <Link to='/course' onClick={closeDropdown}>Course</Link>
+                <Link to='/course'>Course</Link>
               </li>
               <li className='nav-item acad-nav-item'>
-                <Link to='/about' onClick={closeDropdown}>Campus</Link>
+                <Link to='/about'>Campus</Link>
               </li>
               <li className='nav-item acad-nav-item'>
-                <Link to='/blogs' onClick={closeDropdown}>Blogs</Link>
+                <Link to='/blogs'>Blogs</Link>
               </li>
               <li className='nav-item acad-nav-item'>
-                <Link to='/contact' onClick={closeDropdown}>Contact</Link>
+                <Link to='/contact'>Contact</Link>
               </li>
             </ul>
           </nav>

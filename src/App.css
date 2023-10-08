@@ -166,10 +166,17 @@
   font-weight:400;
 }
 
+.footer-links-container {
+  display: flex;
+  flex-direction: column; /* Arrange elements in a column (vertically) */
+  align-items: flex-end; /* Align elements to the right side */
+}
+
 .footer-links {
   display: flex;
   justify-content: space-around; /* Adjusted alignment for mobile */
-  margin-top: 10px; /* Added margin for spacing */
+  margin-top: 10px;
+  margin-right: 20px;/* Added margin for spacing */
 }
 
 .footer-links h6 {

@@ -7,7 +7,7 @@ const Course = ({ course }) => {
     return (
         <>
             <video autoPlay muted loop className="home-bg">
-                <source src={video} type="video" />
+                <source src={video} type="video/mp4" />
             </video>
             <div className='course-bg-text-container'>
                 <h3 className='course-bg-text'>Courses</h3>

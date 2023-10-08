@@ -99,7 +99,7 @@
 .course-btn:hover {
     background: #FFF9F6;
     color: #000;
-    border: 0 solid #ffffff;
+    border: 3px solid #ffffff;
     transition: 0.4s;
 }
 

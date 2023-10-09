@@ -1,5 +1,5 @@
 body {
-    background: #FFF9F6;
+    background: rgb(255, 249, 246);
 }
 
 .home-bg-container {
@@ -542,6 +542,7 @@ position: relative;
 
     .rakhee-text {
         width: 90%;
+        margin-top: 30%;
     }
 
     .rakhee-rule {
@@ -707,5 +708,8 @@ position: relative;
         margin: auto;
         height: max-content;
         width: 100%;
+    }
+    .home-bg-container{
+        height: auto;
     }
 }

@@ -50,7 +50,7 @@ const App = () => {
               </tbody>
             </table>
           </div>
-          <div>
+        </div>
           <h6 className='footer-text3'>
             © 2023 Palate Culinary Academy. All Rights Reserved.
           </h6>

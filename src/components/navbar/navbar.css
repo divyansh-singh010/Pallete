@@ -19,7 +19,7 @@
   text-transform: capitalize;
   /* transition: .4s; */
 }
-.nav-link {
+.nav-item {
   text-decoration: none;
   padding: 10px 15px;
 
@@ -27,7 +27,7 @@
   transition: border 0.3s ease-in-out;
 }
 
-.nav-link.active {
+.nav-item.active {
   /* Change the border-top-width property */
   border-top-width: 2px;
   border-top-style: solid;

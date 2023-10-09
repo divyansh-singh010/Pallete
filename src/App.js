@@ -27,13 +27,15 @@ const App = () => {
           <div className='footer-logo'>
             <img src={logo} alt='logo' />
           </div>
+          <dic className'footer-wrapper'>
           <div className='footer-contact'>
             <h4 className='footer-text'>New Delhi, Delhi</h4>
             <h4 className='footer-text2'>
               Phone: +91 98202 67890<br />
               Email: xyz1223444531@gmail.com
             </h4>
-            <div className='footer-links'>
+          </div>
+          <div className='footer-links'>
             <table className='tables'>
               <tbody>
                 <tr>
@@ -48,7 +50,7 @@ const App = () => {
               </tbody>
             </table>
           </div>
-          </div>
+          <div>
           <h6 className='footer-text3'>
             © 2023 Palate Culinary Academy. All Rights Reserved.
           </h6>

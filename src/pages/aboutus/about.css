@@ -1,5 +1,6 @@
 .about-us-box {
-    color: #252323;
+    color: #ffffff;
+    -webkit-text-stroke: 3px #000;
     /* position: relative; */
     /* top: -10px;
     left: 20%; */

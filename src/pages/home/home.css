@@ -320,7 +320,7 @@ body {
 .sub-btn:hover {
     background: #D9D4D1;
     color: #000;
-    border: 3px solid #D9D4D1;
+    border: 3px solid #000000;
     transition: 0.4s;
 }
 

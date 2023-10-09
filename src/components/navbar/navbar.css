@@ -19,9 +19,17 @@
   text-transform: capitalize;
   /* transition: .4s; */
 }
-.nav-tabs .nav-item.active .nav-link {
-  border-top: 2px solid #007bff; /* Change the color as needed */
+.nav-link {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-top: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
 }
+
+.nav-link.active {
+  border-top-color: #007bff; /* Adjust this color to your preference */
+}
+
 
 .mb-2 {
   display: flex;

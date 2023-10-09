@@ -22,12 +22,16 @@
 .nav-link {
   text-decoration: none;
   padding: 10px 15px;
-  border-top: 2px solid transparent;
-  transition: border-color 0.3s ease-in-out;
+
+  /* Transition border property */
+  transition: border 0.3s ease-in-out;
 }
 
 .nav-link.active {
-  border-top-color: rgba(0,0,0,1); /* Adjust this color to your preference */
+  /* Change the border-top-width property */
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #EBC96E;
 }
 
 

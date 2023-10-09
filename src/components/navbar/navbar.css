@@ -19,6 +19,9 @@
   text-transform: capitalize;
   /* transition: .4s; */
 }
+.nav-tabs .nav-item.active .nav-link {
+  border-top: 2px solid #007bff; /* Change the color as needed */
+}
 
 .mb-2 {
   display: flex;

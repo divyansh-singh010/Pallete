@@ -135,6 +135,10 @@
   max-width: 100%; /* Ensure logo doesn't exceed container width */
 }
 
+.footer-wrapper{
+  display:flex;
+}
+
 .footer-contact {
   margin-bottom: 10px;
   display: flex;

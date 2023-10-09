@@ -30,6 +30,11 @@ a {
   color: #EBC96E;
 }
 
+.nav-item a:active,
+.nav-item a:focus {
+  text-decoration: underline; /* Add your underline style here */
+}
+
 
 a:hover {
   color: aliceblue;

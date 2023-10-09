@@ -6,6 +6,11 @@ import './navbar.css';
 function Navbar() {
   const location = useLocation();
 
+  // Define a dummy toggleDropdown function
+  const toggleDropdown = () => {
+    console.log('Dropdown toggled');
+  };
+
   return (
     <div className='navbar'>
       <Link to='/'>

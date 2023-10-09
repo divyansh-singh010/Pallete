@@ -153,6 +153,9 @@
   color: #FFF;
   font-family: system-ui, sans-serif;
 }
+.footer-text4 {
+  font-size:0.65rem
+}
 .footer-text {
   margin: 0; /* Remove any default margin */
 }
@@ -184,8 +187,9 @@
 
 .footer-links {
   display: flex;
-  justify-content: space-around; /* Adjusted alignment for mobile */
-  margin-top: auto;
+  justify-content: space-around;
+  height:100%;/* Adjusted alignment for mobile */
+  margin-bottom: 40px;
   margin-right: 20px;/* Added margin for spacing */
 }
 

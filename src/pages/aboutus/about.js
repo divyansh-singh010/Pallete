@@ -5,7 +5,7 @@ import img2 from './4.png';
 import img3 from './kitchen.jpg';
 import img4 from './dining.jpg';
 import img5 from './3new.jpg';
-
+import { Link } from "react-router-dom";
 const About = () => {
     return (<div>
             <div className='about-us-box'>
@@ -66,6 +66,7 @@ const About = () => {
             <img src={img5} className="about-us-img4" alt="norefer"/>
             </div>
         </div>
+        <Link to='/testimonials'>
         <div className='about-us-container3'>
             Testimonials
         </div>
@@ -73,6 +74,7 @@ const About = () => {
         <div className='margin'></div>
         <h3 className='about-us-head2'>Student Testimonials</h3>
         <h3 className='about-us-head2'>Industry Professional Reviews</h3>
+        </Link>
     </div>
     );
 }

@@ -6,7 +6,6 @@ import './navbar.css';
 function Navbar() {
   const location = useLocation();
 
-  // Define a dummy toggleDropdown function
   const toggleDropdown = () => {
     console.log('Dropdown toggled');
   };
@@ -16,14 +15,14 @@ function Navbar() {
       <Link to='/'>
         <img className='nav-logo' src={logo} alt='logo' />
       </Link>
-      <div className="nav-links">
+      <div>
         {window.innerWidth <= 768 && (
           <span className='toggle-button' onClick={toggleDropdown}>
             &#9776;
           </span>
         )}
         {window.innerWidth > 768 && (
-          <nav>
+          <nav className="nav-links">
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
               <li className={`nav-item acad-nav-item ${location.pathname === '/' ? 'active' : ''}`}>
                 <Link to='/' className='nav-link'>

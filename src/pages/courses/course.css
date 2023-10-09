@@ -115,7 +115,7 @@
     text-transform: uppercase;
     /* display: flex; */
     background: rgba(0, 0, 0, 0.82);
-    width: fit-content;
+    width: 50%;
     height: 4rem;
     flex-shrink: 0;
     margin: auto;

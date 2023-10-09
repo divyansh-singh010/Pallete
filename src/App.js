@@ -8,7 +8,14 @@ import About from './pages/aboutus/about';
 import Course from './pages/courses/course';
 import Home from './pages/home/home';
 import Navbar from './components/navbar/navbar';
-
+import Gallery from './pages/gallery/gallery';
+import Hta from './pages/hta/hta';
+import Common from './pages/common/common';
+import Blogspages1 from './pages/blogspages/blogspages1';
+import Blogspages2 from './pages/blogspages/blogspages2';
+import Blogspages3 from './pages/blogspages/blogspages3';
+import Testimonial from './pages/testimonial/testimonial';
+import Yearly from './pages/yearly/yearly';
 const App = () => {
   return (
     <Router>
@@ -21,6 +28,23 @@ const App = () => {
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/about' element={<About />} />
           <Route path='/course' element={<Course />} />
+          <Route path='/blogs/gallery' element={<Gallery />} />
+          <Route path='/hta' element={<Hta />} />
+          <Route path='/workshop-schedule' element={<Common />} />
+          <Route path='/registration-information' element={<Common />} />
+          <Route path='/internship-opportunities' element={<Common />} />
+          <Route path='/application-process' element={<Common />} />
+          <Route path='/course-descriptions' element={<Common />} />
+          <Route path='/admission-requirements' element={<Common />} />
+          <Route path='/diploma-programs' element={<Common />} />
+          <Route path='/curriculum-details' element={<Common />} />
+          <Route path='/awards' element={<Common />} />
+          <Route path='/student-achievements' element={<Common />} />
+          <Route path='/yearly-courses' element={<Yearly />} />
+          <Route path='/2' element={<Blogspages1 />} />
+          <Route path='/1' element={<Blogspages2 />} />
+          <Route path='/3' element={<Blogspages3 />} />
+          <Route path='testimonials' element={<Testimonial />} />
         </Routes>
         {/* footer starts here */}
         <div className='footer'>

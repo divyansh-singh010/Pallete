@@ -27,33 +27,35 @@ const App = () => {
           <div className='footer-logo'>
             <img src={logo} alt='logo' />
           </div>
-          <dic className'footer-wrapper'>
-          <div className='footer-contact'>
-            <h4 className='footer-text'>New Delhi, Delhi</h4>
-            <h4 className='footer-text2'>
-              Phone: +91 98202 67890<br />
-              Email: xyz1223444531@gmail.com
-            </h4>
+          <div className='footer-wrapper'>
+            <div className='footer-contact'>
+              <h4 className='footer-text'>New Delhi, Delhi</h4>
+              <h4 className='footer-text2'>
+                Phone: +91 98202 67890<br />
+                Email: xyz1223444531@gmail.com
+              </h4>
+            </div>
+            <div className='footer-links'>
+              <table className='tables'>
+                <tbody>
+                  <tr>
+                    <td><h6 className='footer-text4'>FAQ</h6></td>
+                  </tr>
+                  <tr>
+                    <td><h6 className='footer-text4'>Events</h6></td>
+                  </tr>
+                  <tr>
+                    <td><h6 className='footer-text4'>Privacy Policy</h6></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div className='footer-links'>
-            <table className='tables'>
-              <tbody>
-                <tr>
-                  <td><h6 className='footer-text4'>FAQ</h6></td>
-                </tr>
-                <tr>
-                  <td><h6 className='footer-text4'>Events</h6></td>
-                </tr>
-                <tr>
-                  <td><h6 className='footer-text4'>Privacy Policy</h6></td>
-                </tr>
-              </tbody>
-            </table>
+          <div>
+            <h6 className='footer-text3'>
+              © 2023 Palate Culinary Academy. All Rights Reserved.
+            </h6>
           </div>
-        </div>
-          <h6 className='footer-text3'>
-            © 2023 Palate Culinary Academy. All Rights Reserved.
-          </h6>
         </div>
         {/* footer ends here */}
       </div>

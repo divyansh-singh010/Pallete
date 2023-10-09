@@ -27,7 +27,7 @@
 }
 
 .nav-link.active {
-  border-top-color: #000000; /* Adjust this color to your preference */
+  border-top-color: rgba(0,0,0,1); /* Adjust this color to your preference */
 }
 
 

@@ -78,7 +78,7 @@ body {
 .img-item {
     width: 100%;
     display: flex;
-    /* margin: 40px; */
+    margin-left:5%;
 }
 
 .grid-item img {

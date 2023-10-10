@@ -78,7 +78,13 @@ body {
 .img-item {
     width: 100%;
     display: flex;
+    justify-content: center;
+    filter: grayscale(100%);
     /* margin: 40px; */
+}
+.img-item:hover{
+    filter: grayscale(0%);
+    transition: 0.3s;
 }
 
 .grid-item img {

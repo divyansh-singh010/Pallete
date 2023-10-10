@@ -29,45 +29,22 @@ const Gallery = () => {
             <h2 className='gallery-head2'>Photos of Celebrity Chef's Culinary Creations </h2>
             <div className='gallery-img-grid'>
                 <div className='gallery-img1'>
-                    <img src={img1} alt='img1' className='gallery-img1'></img>
+                    <img src={img1} alt='img1' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img2} alt='img2' className='gallery-img1'></img>
+                    <img src={img2} alt='img2' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img3} alt='img3' className='gallery-img1'></img>
+                    <img src={img3} alt='img3' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img4} alt='img4' className='gallery-img1'></img>
+                    <img src={img4} alt='img4' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img5} alt='img5' className='gallery-img1'></img>
+                    <img src={img5} alt='img5' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img6} alt='img6' className='gallery-img1'></img>
-                </div>
-            </div>
-            </div>
-            <div className='gallery-container2'>
-            <h2 className='gallery-head2'>Photos of Celebrity Chef's Culinary Creations </h2>
-            <div className='gallery-img-grid'>
-                <div className='gallery-img1'>
-                    <img src={img7} alt='img7' className='gallery-img1'></img>
-                </div>
-                <div className='gallery-img1'>
-                    <img src={img8} alt='img8' className='gallery-img1'></img>
-                </div>
-                <div className='gallery-img1'>
-                    <img src={img9} alt='img9' className='gallery-img1'></img>
-                </div>
-                <div className='gallery-img1'>
-                    <img src={img10} alt='img10' className='gallery-img1'></img>
-                </div>
-                <div className='gallery-img1'>
-                    <img src={img11} alt='img11' className='gallery-img1'></img>
-                </div>
-                <div className='gallery-img1'>
-                    <img src={img12} alt='img12' className='gallery-img1'></img>
+                    <img src={img6} alt='img6' className='gallery-img1-img'></img>
                 </div>
             </div>
             </div>
@@ -75,22 +52,45 @@ const Gallery = () => {
             <h2 className='gallery-head2'>Photos of Celebrity Chef's Culinary Creations </h2>
             <div className='gallery-img-grid'>
                 <div className='gallery-img1'>
-                    <img src={img13} alt='img13' className='gallery-img1'></img>
+                    <img src={img7} alt='img7' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img14} alt='img14' className='gallery-img1'></img>
+                    <img src={img8} alt='img8' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img15} alt='img15' className='gallery-img1'></img>
+                    <img src={img9} alt='img9' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img16} alt='img16' className='gallery-img1'></img>
+                    <img src={img10} alt='img10' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img17} alt='img17' className='gallery-img1'></img>
+                    <img src={img11} alt='img11' className='gallery-img1-img'></img>
                 </div>
                 <div className='gallery-img1'>
-                    <img src={img18} alt='img18' className='gallery-img1'></img>
+                    <img src={img12} alt='img12' className='gallery-img1-img'></img>
+                </div>
+            </div>
+            </div>
+            <div className='gallery-container2'>
+            <h2 className='gallery-head2'>Photos of Celebrity Chef's Culinary Creations </h2>
+            <div className='gallery-img-grid'>
+                <div className='gallery-img1'>
+                    <img src={img13} alt='img13' className='gallery-img1-img'></img>
+                </div>
+                <div className='gallery-img1'>
+                    <img src={img14} alt='img14' className='gallery-img1-img'></img>
+                </div>
+                <div className='gallery-img1'>
+                    <img src={img15} alt='img15' className='gallery-img1-img'></img>
+                </div>
+                <div className='gallery-img1'>
+                    <img src={img16} alt='img16' className='gallery-img1-img'></img>
+                </div>
+                <div className='gallery-img1'>
+                    <img src={img17} alt='img17' className='gallery-img1-img'></img>
+                </div>
+                <div className='gallery-img1'>
+                    <img src={img18} alt='img18' className='gallery-img1-img'></img>
                 </div>
             </div>
             </div>

@@ -9,6 +9,13 @@ import logo from "./logo.png";
 import image1 from "./1.png";
 import rakhee from "./2.png";
 import video from "./video.mp4";
+import img4 from "./IMG-20231010-WA0001.jpg";
+import img5 from "./IMG-20231010-WA0002.jpg";
+import img6 from "./IMG-20231010-WA0003.jpg";
+import img7 from "./IMG-20231010-WA0004.jpg";
+import img8 from "./IMG-20231010-WA0005.jpg";
+import img9 from "./IMG-20231010-WA0006.jpg";
+
 
 const Home = () => {
   return (<>
@@ -105,12 +112,24 @@ const Home = () => {
       <h2 className="take-away">Take Away Benefits</h2>
     </div>
     <div className="container6">
-      <div className="sub-6"></div>
-      <div className="sub-6"></div>
-      <div className="sub-6"></div>
-      <div className="sub-6"></div>
-      <div className="sub-6"></div>
-      <div className="sub-6"></div>
+      <div className="sub-6">
+        <img className="sub-6-img" src={img4} alt="profile" />
+      </div>
+      <div className="sub-6">
+        <img className="sub-6-img" src={img5} alt="profile" />
+      </div>
+      <div className="sub-6">
+        <img className="sub-6-img" src={img6} alt="profile" />
+      </div>
+      <div className="sub-6">
+        <img className="sub-6-img" src={img7} alt="profile" />
+      </div>
+      <div className="sub-6">
+        <img className="sub-6-img" src={img8} alt="profile" />
+      </div>
+      <div className="sub-6">
+        <img className="sub-6-img" src={img9} alt="profile" />
+      </div>
     </div>
   </>
   );

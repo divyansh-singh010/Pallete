@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom'; // Import NavLink
+import { NavLink,Link } from 'react-router-dom'; // Import NavLink
 import logo from './logo.png';
 import './navbar.css';
 
@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <NavLink to='/' activeClassName='active-link'><img className='nav-logo' src={logo} alt='logo' /></NavLink>
+      <Link to='/' activeClassName='active-link'><img className='nav-logo' src={logo} alt='logo' /></Link>
       <div className="nav-links">
         {window.innerWidth <= 768 && (
           <span className='toggle-button' onClick={toggleDropdown}>

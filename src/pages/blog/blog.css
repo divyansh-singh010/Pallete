@@ -79,12 +79,7 @@
     color: #ffffff;
 }
 .gallery-link:hover {
-  color: #ffffff !important;
-  text-shadow:
-    3px 3px 0 #000,
-    -3px 3px 0 #000,
-    -3px -3px 0 #000,
-    3px -3px 0 #000; /* Add a black border */
+  color: #ffffff !important; /* Add a black border */
   transform: scale(1.05);
 }
 .gallery {

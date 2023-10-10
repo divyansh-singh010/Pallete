@@ -39,12 +39,33 @@ const App = () => {
         {/* navbar starts here */}
         <Navbar />
         <ScrollToTop />
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/about' element={<About />} />
           <Route path='/course' element={<Course />} />
+          <Route path='/blogs/gallery' element={<Gallery />} />
+          <Route path='/hta' element={<Hta />} />
+          <Route path='/workshop-schedule' element={<Common />} />
+          <Route path='/registration-information' element={<Common />} />
+          <Route path='/internship-opportunities' element={<Common />} />
+          <Route path='/application-process' element={<Common />} />
+          <Route path='/course-descriptions' element={<Common />} />
+          <Route path='/admission-requirements' element={<Common />} />
+          <Route path='/diploma-programs' element={<Common />} />
+          <Route path='/curriculum-details' element={<Common />} />
+          <Route path='/awards' element={<Common />} />
+          <Route path='/student-achievements' element={<Common />} />
+          <Route path='/yearly-courses' element={<Yearly />} />
+          <Route path='/2' element={<Blogspages1 />} />
+          <Route path='/1' element={<Blogspages2 />} />
+          <Route path='/3' element={<Blogspages3 />} />
+          <Route path='/testimonials' element={<Testimonial />} />
+          <Route path='/faq' element={<FAQ />} />
+          <Route path='/events' element={<Events />} />
+          <Route path='/privacy' element={<Privacy />} />
           <Route path='/blogs/gallery' element={<Gallery />} />
           <Route path='/hta' element={<Hta />} />
           <Route path='/workshop-schedule' element={<Common />} />
@@ -85,12 +106,18 @@ const App = () => {
                   <tr>
                     <td><h6 className='footer-text4'>
                       <Link to='/faq' className='foot-links'>FAQ</Link></h6></td>
+                    <td><h6 className='footer-text4'>
+                      <Link to='/faq' className='foot-links'>FAQ</Link></h6></td>
                   </tr>
                   <tr>
                     <td><h6 className='footer-text4'>
                     <Link to='/events' className='foot-links'>Events</Link></h6></td>
+                    <td><h6 className='footer-text4'>
+                    <Link to='/events' className='foot-links'>Events</Link></h6></td>
                   </tr>
                   <tr>
+                    <td><h6 className='footer-text4'>
+                    <Link to='/privacy'className='foot-links'>Privacy Policy</Link></h6></td>
                     <td><h6 className='footer-text4'>
                     <Link to='/privacy'className='foot-links'>Privacy Policy</Link></h6></td>
                   </tr>

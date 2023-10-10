@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom'; // Import NavLink
 import logo from './logo.png';
 import './navbar.css';
 
@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <Link to='/'><img className='nav-logo' src={logo} alt='logo' /></Link>
+      <Link to='/' activeClassName='active-link'><img className='nav-logo' src={logo} alt='logo' /></Link>
       <div className="nav-links">
         {window.innerWidth <= 768 && (
           <span className='toggle-button' onClick={toggleDropdown}>
@@ -27,19 +27,19 @@ const Navbar = () => {
           <nav>
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
               <li className='nav-item acad-nav-item'>
-                <Link to='/'>Home</Link>
+                <NavLink to='/' activeClassName='active-link'>Home</NavLink>
               </li>
               <li className='nav-item acad-nav-item'>
-                <Link to='/course'>Course</Link>
+                <NavLink to='/course' activeClassName='active-link'>Course</NavLink>
               </li>
               <li className='nav-item acad-nav-item'>
-                <Link to='/about'>Campus</Link>
+                <NavLink to='/about' activeClassName='active-link'>Campus</NavLink>
               </li>
               <li className='nav-item acad-nav-item'>
-                <Link to='/blogs'>Blogs</Link>
+                <NavLink to='/blogs' activeClassName='active-link'>Blogs</NavLink>
               </li>
               <li className='nav-item acad-nav-item'>
-                <Link to='/contact'>Contact</Link>
+                <NavLink to='/contact' activeClassName='active-link'>Contact</NavLink>
               </li>
             </ul>
           </nav>

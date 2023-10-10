@@ -137,6 +137,9 @@
 .footer-links a{
   color: #FFF!important;
 }
+.footer-links a{
+  color: #FFF!important;
+}
 .footer-wrapper{
   display:flex;
   justify-content:space-between;

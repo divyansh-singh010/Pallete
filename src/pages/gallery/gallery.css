@@ -37,6 +37,7 @@
     height: auto;
     flex-shrink: 0;
     object-fit: cover;
+    margin: auto;
 }
 
 .gallery-img1:hover {

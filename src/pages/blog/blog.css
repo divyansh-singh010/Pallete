@@ -52,6 +52,7 @@
     width: 80%;
     height: fit-content;
     position: relative;
+    overflow:hidden;
     /* Set a maximum width to prevent excessive spreading on larger screens */
 }
 .text-container-new1,

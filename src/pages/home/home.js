@@ -26,12 +26,12 @@ const Home = () => {
           academy
         </p>
       </div>
-    <div className="home-bg-container">
-  <video autoPlay muted loop className="home-bg">
-    <source type="video/mp4" />
-  </video>
-  <div className="overlay"></div>
-</div>
+      <div className="home-bg-container">
+        <video autoPlay muted loop className="home-bg">
+          <source src={video} type="video/mp4" />
+        </video>
+        <div className="overlay"></div>
+      </div>
 
 
       <div className="home">

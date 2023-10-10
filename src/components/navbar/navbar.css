@@ -131,8 +131,8 @@ a:hover {
 .nav-item a {
   text-decoration: none;
   color: #EBC96E;
-  font-size: 1.5rem;
-  font-size: 1 rem;
+  height: max-content;
+  font-size: 1.2rem;
 }
 
 .nav-item a:hover {

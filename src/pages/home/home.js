@@ -9,12 +9,12 @@ import logo from "./logo.png";
 import image1 from "./1.png";
 import rakhee from "./2.png";
 import video from "./video.mp4";
-import img4 from "./IMG-20231010-WA0001.jpg";
-import img5 from "./IMG-20231010-WA0002.jpg";
-import img6 from "./IMG-20231010-WA0003.jpg";
-import img7 from "./IMG-20231010-WA0004.jpg";
-import img8 from "./IMG-20231010-WA0005.jpg";
-import img9 from "./IMG-20231010-WA0006.jpg";
+import img4 from "./cook-book-removebg-preview.png";
+import img5 from "./patisserie-removebg-preview.png";
+import img6 from "./cookbook-removebg-preview.png";
+import img7 from "./mortarboard-removebg-preview.png";
+import img8 from "./gas-stove-removebg-preview.png";
+import img9 from "./chef-removebg-preview.png";
 
 
 const Home = () => {

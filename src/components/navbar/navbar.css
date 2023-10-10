@@ -22,6 +22,13 @@
 
 /* Define the active-link class */
 .active-link {
+  border-top: 0;
+  transition: border-top 0.3s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+
+/* On hover or when the link is active, apply the border */
+.active-link:hover,
+.active-link:active {
   border-top: 3px solid #EBC96E; /* Adjust the color as needed */
 }
 

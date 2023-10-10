@@ -32,6 +32,10 @@
   border-top: 3px solid #EBC96E; /* Adjust the color as needed */
 }
 
+.active{
+  border-top: 3px solid #EBC96E;
+}
+
 
 .mb-2 {
   display: flex;

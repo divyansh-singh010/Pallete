@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.png';
 import './App.css';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Contact from './pages/contact/contact';
 import Blogs from './pages/blog/blog';
@@ -16,12 +18,27 @@ import Blogspages2 from './pages/blogspages/blogspages2';
 import Blogspages3 from './pages/blogspages/blogspages3';
 import Testimonial from './pages/testimonial/testimonial';
 import Yearly from './pages/yearly/yearly';
+import { Link } from 'react-router-dom';
+import FAQ from './pages/common/faq';
+import Events from './pages/common/events';
+import Privacy from './pages/common/privacy';
+function ScrollToTop() {
+	const { pathname } = useLocation();
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [pathname]);
+
+	return null;
+}
+
 const App = () => {
   return (
     <Router>
       <div>
         {/* navbar starts here */}
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
@@ -44,7 +61,10 @@ const App = () => {
           <Route path='/2' element={<Blogspages1 />} />
           <Route path='/1' element={<Blogspages2 />} />
           <Route path='/3' element={<Blogspages3 />} />
-          <Route path='testimonials' element={<Testimonial />} />
+          <Route path='/testimonials' element={<Testimonial />} />
+          <Route path='/faq' element={<FAQ />} />
+          <Route path='/events' element={<Events />} />
+          <Route path='/privacy' element={<Privacy />} />
         </Routes>
         {/* footer starts here */}
         <div className='footer'>
@@ -63,13 +83,16 @@ const App = () => {
               <table className='tables'>
                 <tbody>
                   <tr>
-                    <td><h6 className='footer-text4'>FAQ</h6></td>
+                    <td><h6 className='footer-text4'>
+                      <Link to='/faq' className='foot-links'>FAQ</Link></h6></td>
                   </tr>
                   <tr>
-                    <td><h6 className='footer-text4'>Events</h6></td>
+                    <td><h6 className='footer-text4'>
+                    <Link to='/events' className='foot-links'>Events</Link></h6></td>
                   </tr>
                   <tr>
-                    <td><h6 className='footer-text4'>Privacy Policy</h6></td>
+                    <td><h6 className='footer-text4'>
+                    <Link to='/privacy'className='foot-links'>Privacy Policy</Link></h6></td>
                   </tr>
                 </tbody>
               </table>

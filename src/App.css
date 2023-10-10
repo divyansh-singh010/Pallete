@@ -134,7 +134,9 @@
 .footer-logo img {
   max-width: 100%; /* Ensure logo doesn't exceed container width */
 }
-
+.footer-links a{
+  color: #FFF!important;
+}
 .footer-wrapper{
   display:flex;
   justify-content:space-between;

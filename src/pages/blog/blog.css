@@ -45,9 +45,10 @@
 .text-container-new4 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 20%;
+    margin: auto;
     margin-top: 30%;
     max-width: 1200px;
+    width: 80%;
     height: fit-content;
     position: relative;
     /* Set a maximum width to prevent excessive spreading on larger screens */
@@ -63,12 +64,16 @@
 }
 .gallery-link{
     text-decoration: none;
-    color: #000;
+    color: #2c1010;
+}
+.gallery-link:hover{
+    color: rgb(0, 0, 0)!important;
+    transform: scale(1.05);
 }
 .gallery {
     display: flex;
     justify-content: center;
-    color: #000000!important;
+    color: #241a1a!important;
     font-family: system-ui, sans-serif;
     font-size: 300%;
     /* Adjusted font size for better mobile readability */
@@ -114,7 +119,8 @@
 @media (min-width: 992px) {
     .text-container-new4 {
         font-size: 200%;
+        width: 80%;
         grid-template-columns: repeat(3, 1fr);
-        margin: 10%;
+        margin: auto;
     }
 }

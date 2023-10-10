@@ -1,53 +1,45 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from './logo.png';
 import './navbar.css';
 
-function Navbar() {
-  const location = useLocation();
+const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
-    console.log('Dropdown toggled');
+    setIsDropdownOpen(prev => !prev);
+  };
+
+  const closeDropdown = () => {
+    setIsDropdownOpen(false);
   };
 
   return (
     <div className='navbar'>
-      <Link to='/'>
-        <img className='nav-logo' src={logo} alt='logo' />
-      </Link>
-      <div>
+      <Link to='/'><img className='nav-logo' src={logo} alt='logo' /></Link>
+      <div className="nav-links">
         {window.innerWidth <= 768 && (
           <span className='toggle-button' onClick={toggleDropdown}>
             &#9776;
           </span>
         )}
         {window.innerWidth > 768 && (
-          <nav className="nav-links">
+          <nav>
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
-              <li className={`nav-item acad-nav-item ${location.pathname === '/' ? 'active' : ''}`}>
-                <Link to='/' className='nav-link'>
-                  Home
-                </Link>
+              <li className='nav-item acad-nav-item'>
+                <Link to='/'>Home</Link>
               </li>
-              <li className={`nav-item acad-nav-item ${location.pathname === '/course' ? 'active' : ''}`}>
-                <Link to='/course' className='nav-link'>
-                  Course
-                </Link>
+              <li className='nav-item acad-nav-item'>
+                <Link to='/course'>Course</Link>
               </li>
-              <li className={`nav-item acad-nav-item ${location.pathname === '/about' ? 'active' : ''}`}>
-                <Link to='/about' className='nav-link'>
-                  Campus
-                </Link>
+              <li className='nav-item acad-nav-item'>
+                <Link to='/about'>Campus</Link>
               </li>
-              <li className={`nav-item acad-nav-item ${location.pathname === '/blogs' ? 'active' : ''}`}>
-                <Link to='/blogs' className='nav-link'>
-                  Blogs
-                </Link>
+              <li className='nav-item acad-nav-item'>
+                <Link to='/blogs'>Blogs</Link>
               </li>
-              <li className={`nav-item acad-nav-item ${location.pathname === '/contact' ? 'active' : ''}`}>
-                <Link to='/contact' className='nav-link'>
-                  Contact
-                </Link>
+              <li className='nav-item acad-nav-item'>
+                <Link to='/contact'>Contact</Link>
               </li>
             </ul>
           </nav>
@@ -55,6 +47,6 @@ function Navbar() {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

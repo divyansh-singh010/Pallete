@@ -167,9 +167,14 @@ label {
 .icon-container {
     display: flex;
     justify-content: center;
+}
+.icon{
     filter:grayscale(100%);
 }
-
+a:hover{
+    filter:grayscale(0%);
+    transform: scale(0.9);
+}
 .svgs {
     width: 40%;
     display: flex;

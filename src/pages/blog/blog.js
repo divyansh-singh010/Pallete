@@ -2,7 +2,7 @@ import React from "react";
 import ellipse from "./ellipse.png";
 import './blog.css';
 import img1 from './1.png';
-import img2 from './2.png';
+import img2 from './6.png';
 import img3 from './3.png';
 import { Link } from "react-router-dom";
 

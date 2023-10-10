@@ -5,7 +5,7 @@ import img2 from "./img2.png";
 import img3 from "./img3.png";
 import image1 from "./1.png";
 import rakhee from "./2.png";
-// import video from "./video.mp4";
+import video from "./video.mp4";
 import img4 from "./chef-removebg-preview.png";
 import img5 from "./cook-book-removebg-preview.png";
 import img6 from "./gas-stove-removebg-preview.png";

@@ -20,6 +20,12 @@
   /* transition: .4s; */
 }
 
+/* Define the active-link class */
+.active-link {
+  border-top: 3px solid #EBC96E; /* Adjust the color as needed */
+}
+
+
 .mb-2 {
   display: flex;
   margin: 0 !important;

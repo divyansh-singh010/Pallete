@@ -20,6 +20,10 @@
   /* transition: .4s; */
 }
 
+.active {
+  border-top: 3px solid #EBC96E;
+}
+
 .mb-2 {
   display: flex;
   margin: 0 !important;

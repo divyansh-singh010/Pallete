@@ -1,6 +1,6 @@
 import React from "react";
 import "./course.css";
-// import video from "./video.mp4";
+import video from "./video.mp4";
 import { Link } from "react-router-dom";
 
 const Course = ({ course }) => {
@@ -8,7 +8,7 @@ const Course = ({ course }) => {
         <>
             <div className="video-container">
                 <video autoPlay muted loop className="home-bg">
-                    <source type="video/mp4" />
+                    <source src={video} type="video/mp4" />
                 </video>
                 <div className="overlay"></div>
             </div>

@@ -8,7 +8,7 @@ import img3 from "./img3.png";
 import logo from "./logo.png";
 import image1 from "./1.png";
 import rakhee from "./2.png";
-// import video from "./video.mp4";
+import video from "./video.mp4";
 import img4 from "./IMG-20231010-WA0001.jpg";
 import img5 from "./IMG-20231010-WA0002.jpg";
 import img6 from "./IMG-20231010-WA0003.jpg";
@@ -29,12 +29,12 @@ const Home = () => {
           academy
         </p>
       </div>
-    <div className="home-bg-container">
-  <video autoPlay muted loop className="home-bg">
-    <source type="video/mp4" />
-  </video>
-  <div className="overlay"></div>
-</div>
+      <div className="home-bg-container">
+        <video autoPlay muted loop className="home-bg">
+          <source src={video} type="video/mp4" />
+        </video>
+        <div className="overlay"></div>
+      </div>
 
 
       <div className="home">

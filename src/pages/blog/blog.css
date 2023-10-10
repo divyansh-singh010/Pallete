@@ -80,7 +80,11 @@
 }
 .gallery-link:hover {
   color: #ffffff !important;
-  -webkit-text-stroke: 2px black; /* Add a black border */
+  text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000; /* Add a black border */
   transform: scale(1.05);
 }
 .gallery {

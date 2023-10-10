@@ -23,13 +23,13 @@ import FAQ from './pages/common/faq';
 import Events from './pages/common/events';
 import Privacy from './pages/common/privacy';
 function ScrollToTop() {
-	const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, [pathname]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
-	return null;
+  return null;
 }
 
 const App = () => {
@@ -106,20 +106,16 @@ const App = () => {
                   <tr>
                     <td><h6 className='footer-text4'>
                       <Link to='/faq' className='foot-links'>FAQ</Link></h6></td>
-                    <td><h6 className='footer-text4'>
-                      <Link to='/faq' className='foot-links'>FAQ</Link></h6></td>
                   </tr>
                   <tr>
                     <td><h6 className='footer-text4'>
-                    <Link to='/events' className='foot-links'>Events</Link></h6></td>
-                    <td><h6 className='footer-text4'>
-                    <Link to='/events' className='foot-links'>Events</Link></h6></td>
+                      <Link to='/events' className='foot-links'>Events</Link></h6></td>
+
                   </tr>
                   <tr>
                     <td><h6 className='footer-text4'>
-                    <Link to='/privacy'className='foot-links'>Privacy Policy</Link></h6></td>
-                    <td><h6 className='footer-text4'>
-                    <Link to='/privacy'className='foot-links'>Privacy Policy</Link></h6></td>
+                      <Link to='/privacy' className='foot-links'>Privacy Policy</Link></h6></td>
+
                   </tr>
                 </tbody>
               </table>

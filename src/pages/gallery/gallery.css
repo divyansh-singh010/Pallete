@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .gallery-head {
     color: #000;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -87,102 +86,8 @@
 
 .gallery-img1 {
     /* ... existing styles ... */
-    height: auto;
-    /* Removed fixed height for better responsiveness */
-    max-width: 100%;
-    /* Ensure images don't exceed their container width */
-}
-=======
-.gallery-head {
-    color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 4.15625rem;
-    letter-spacing: 0.84rem;
-    text-transform: uppercase;
-}
-
-.gallery-container {
-    text-align: center;
-    margin: 10%;
-}
-
-.gallery-container2 {
-    text-align: center;
-}
-
-.gallery-img-grid {
-    display: grid;
-    margin: 10%;
-    width: auto;
-    grid-template-columns: repeat(3, 1fr);
-    height: 30rem;
-    grid-gap: 1rem;
-    flex-shrink: 0;
-}
-.gallery-img1-img{
-    width: 100%;
     height: 100%;
-}
-.gallery-img1 {
-    border: 3px solid #000;
-    background-color: rgba(0, 0, 0, 0.65);
-    width: 80%;
-    height: auto;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-
-.gallery-img1:hover {
-    transform: scale(0.95);
-    transition: all 0.5s ease-in-out;
-}
-
-.gallery-head2 {
-    color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    /* 184.722% */
-    letter-spacing: 0.315rem;
-    text-transform: capitalize;
-}
-
-.gallery-head {
-    /* ... existing styles ... */
-    font-size: 3rem;
-    /* Adjusted font size for better mobile readability */
-    letter-spacing: 0.56rem;
-    /* Adjusted letter spacing for better mobile appearance */
-}
-
-.gallery-container {
-    /* ... existing styles ... */
-    margin: 5% auto;
-    /* Adjusted margin for better centering */
-}
-
-.gallery-container2 {
-    /* ... existing styles ... */
-    margin: 5%;
-    /* Adjusted margin for better centering */
-}
-
-.gallery-img-grid {
-    /* ... existing styles ... */
-    margin: 5%;
-    height: auto;
-    /* Removed fixed height for better responsiveness */
-}
-
-.gallery-img1 {
-    /* ... existing styles ... */
-    height: auto;
     /* Removed fixed height for better responsiveness */
     max-width: 100%;
     /* Ensure images don't exceed their container width */
 }
->>>>>>> 1dc3f0048dc28952a5c9a32055db863b59aacd4e

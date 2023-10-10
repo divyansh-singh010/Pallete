@@ -1,11 +1,11 @@
 import React from "react";
-import './common.css';
+import './blogspages.css';
 
-const Common = () => {
+const Blogspages3 = () => {
     return (
         <>
             <div className="hta">
-                <h1 className="hta-heading">Workshop Schedule</h1>
+                <h1 className="hta-heading">Industry Trends</h1>
             </div>
             <div className="hta-content">
                 <div className="hta-content1">
@@ -22,4 +22,4 @@ Cras ullamcorper, lacus in tristique fringilla, elit tortor eleifend arcu, a pha
     )
 }
 
-export default Common;
+export default Blogspages3;

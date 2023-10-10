@@ -123,7 +123,6 @@ button {
 .btn {
     margin: auto;
 }
-
 .submit-btn {
     display: flex;
     justify-content: center;
@@ -133,6 +132,7 @@ button:hover {
     background: #FFF9F6;
     color: #3B0002;
     transition: 0.4s;
+    border: #000000 3px solid;
 }
 
 .input {
@@ -168,7 +168,13 @@ label {
     display: flex;
     justify-content: center;
 }
-
+.icon{
+    filter:grayscale(100%);
+}
+a:hover{
+    filter:grayscale(0%);
+    transform: scale(0.9);
+}
 .svgs {
     width: 40%;
     display: flex;

@@ -1,23 +1,41 @@
 body {
-    background: #FFF9F6;
+    background: rgb(255, 249, 246);
+}
+
+.home-bg-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
 .home-bg {
-    width: 100%;
-    height: 550px;
-    background-color: #646464;
-    flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2; /* Set z-index to -2 for the video */
+  filter:saturate(130%);
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Black with 40% opacity */
+}
+
+
 
 .home-text {
     color: #ffffff;
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 300%;
+    font-size: 600%;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%;
+    line-height: 101%;
     /* 101% */
     position: absolute;
     top: 35%;
@@ -25,6 +43,7 @@ body {
     letter-spacing: 9px;
     text-transform: uppercase;
     width: 33%;
+    z-index:1;
 }
 
 .home-bg-text {
@@ -83,6 +102,7 @@ body {
 .image1 {
     width: 414px;
     height: 469px;
+    margin: auto;
     flex-shrink: 0;
     margin-right: 60px;
     border-radius: 1rem;
@@ -124,6 +144,7 @@ body {
     margin-top: 5px;
     margin-bottom: 15px;
     margin-right: 10px;
+    text-align: left;
 }
 
 .home-welcome-text2 {
@@ -139,6 +160,7 @@ body {
     /* 185% */
     letter-spacing: 0.7px;
     text-transform: capitalize;
+    text-align: left;
 }
 
 .container1 {
@@ -247,7 +269,7 @@ body {
     flex-shrink: 0;
     border: 3px solid rgba(59, 0, 2, 1);
     border-radius: 4%;
-    margin: 0 10%;
+    margin: 0 5%;
     justify-content: center;
 }
 
@@ -299,7 +321,7 @@ body {
 .sub-btn:hover {
     background: #D9D4D1;
     color: #000;
-    border: 3px solid #D9D4D1;
+    border: 3px solid #000000;
     transition: 0.4s;
 }
 
@@ -326,12 +348,15 @@ body {
 }
 
 .container6 {
-    margin: 5px 10%;
+    /* margin: 5px 10%; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    justify-content: center;
+    margin: auto;
     /* Create 3 equal-width columns */
-    gap: 5rem;
+    /* gap: 5rem; */
+    width: 80%;
     /* Add some gap between the items */
 }
 
@@ -340,8 +365,15 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-    width: auto;
-    height: auto;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+.sub-6-img{
+    margin: 10%;
+    width: 100%;
+    height: 90%;
+    aspect-ratio: 1/1;
 }
 
 .rakhee-bg {
@@ -356,15 +388,17 @@ body {
 }
 
 .rakhee {
-    margin: 7%;
-    position: relative;
-    border: #000 3px solid;
+border: 3px solid #000;
+margin: 10%;
+margin-top: 7%;
+margin-bottom: 7%;
+position: relative;
 }
 
 .rakhee-head {
     color: #000;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
@@ -519,6 +553,7 @@ body {
 
     .rakhee-text {
         width: 90%;
+        margin-top: 30%;
     }
 
     .rakhee-rule {
@@ -583,7 +618,7 @@ body {
 
     .image1 {
         width: auto;
-        margin: 0;
+        margin: auto;
         height: 300px;
     }
 
@@ -684,5 +719,8 @@ body {
         margin: auto;
         height: max-content;
         width: 100%;
+    }
+    .home-bg-container{
+        height: auto;
     }
 }

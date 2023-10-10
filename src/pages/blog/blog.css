@@ -45,9 +45,10 @@
 .text-container-new4 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 20%;
+    margin: auto;
     margin-top: 30%;
     max-width: 1200px;
+    width: 80%;
     height: fit-content;
     position: relative;
     /* Set a maximum width to prevent excessive spreading on larger screens */
@@ -59,20 +60,20 @@
     width: 100%;
     height: 100%;
     aspect-ratio: 1/1;
+    opacity: 0.8;
 }
-.text-container-new1 {
-    background-color: #18e58c;
+.gallery-link{
+    text-decoration: none;
+    color: #2c1010;
 }
-.text-container-new2 {
-    background-color: #c43e3e;
-}
-.text-container-new3 {
-    background-color: #3b28ed;
+.gallery-link:hover{
+    color: rgb(0, 0, 0)!important;
+    transform: scale(1.05);
 }
 .gallery {
     display: flex;
     justify-content: center;
-    color: #000000;
+    color: #241a1a!important;
     font-family: system-ui, sans-serif;
     font-size: 300%;
     /* Adjusted font size for better mobile readability */
@@ -118,7 +119,8 @@
 @media (min-width: 992px) {
     .text-container-new4 {
         font-size: 200%;
+        width: 80%;
         grid-template-columns: repeat(3, 1fr);
-        margin: 10%;
+        margin: auto;
     }
 }

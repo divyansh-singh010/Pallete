@@ -19,7 +19,7 @@ const Hta = () => {
                 </div>
                 <div className="hta-content1">
                     <div className="hta-content1-head">
-                        instructions
+                    Application Deadlines
                     </div>
                     <div className="hta-content1-text">
                         venenatis tincidunt. Maecenas at mattis quam, ut bibendum odio. Nunc vitae tempor velit, in pharetra ante. Pellentesque habitant morbi tristique senectus
@@ -28,7 +28,7 @@ const Hta = () => {
                 </div>
                 <div className="hta-content1">
                     <div className="hta-content1-head">
-                        instructions
+                    Tuition and Fees
                     </div>
                     <div className="hta-content1-text">
                         venenatis tincidunt. Maecenas at mattis quam, ut bibendum odio. Nunc vitae tempor velit, in pharetra ante. Pellentesque habitant morbi tristique senectus
@@ -37,25 +37,7 @@ const Hta = () => {
                 </div>
                 <div className="hta-content1">
                     <div className="hta-content1-head">
-                        instructions
-                    </div>
-                    <div className="hta-content1-text">
-                        venenatis tincidunt. Maecenas at mattis quam, ut bibendum odio. Nunc vitae tempor velit, in pharetra ante. Pellentesque habitant morbi tristique senectus
-                        et netus et malesuada fames ac turpis egestas.
-                    </div>
-                </div>
-                <div className="hta-content1">
-                    <div className="hta-content1-head">
-                        instructions
-                    </div>
-                    <div className="hta-content1-text">
-                        venenatis tincidunt. Maecenas at mattis quam, ut bibendum odio. Nunc vitae tempor velit, in pharetra ante. Pellentesque habitant morbi tristique senectus
-                        et netus et malesuada fames ac turpis egestas.
-                    </div>
-                </div>
-                <div className="hta-content1">
-                    <div className="hta-content1-head">
-                        instructions
+                    Scholarships and Financial Aid
                     </div>
                     <div className="hta-content1-text">
                         venenatis tincidunt. Maecenas at mattis quam, ut bibendum odio. Nunc vitae tempor velit, in pharetra ante. Pellentesque habitant morbi tristique senectus

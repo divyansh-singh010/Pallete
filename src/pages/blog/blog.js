@@ -32,6 +32,7 @@ const Blogs = () => {
                 <div className='text-container-new1'><img src={img1} alt='img1' className='text-container-new1'></img></div>
                 <div className='text-container-new2'><img src={img2} alt='img1' className='text-container-new1'></img></div>
                 <div className='text-container-new3'><img src={img3} alt='img1' className='text-container-new1'></img></div>
+                <div className='image-overlay'></div>
                 <h3 className='gallery'>
                 <Link to='/blogs/gallery' className="gallery-link">
                     gallery
